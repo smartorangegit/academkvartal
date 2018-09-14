@@ -2,3 +2,5 @@ node_modules
 psd
 src/img
 dist/img
+dist/fonts
+src/garbage
