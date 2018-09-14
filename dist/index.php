@@ -9,7 +9,7 @@
 </head>
 <body>
     <section class="hero">
-        <div class="container hero__container">
+        <!-- <div class="container hero__container">
             <div class="hero__academ_logo">
                 <img src="img//main/academkvartal_logo.png" alt="Академ Квартал Логотип" />
             </div>
@@ -53,7 +53,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+        <?php include_once('includes/main-page-hero.php'); ?>
         
     </section>
 
@@ -192,7 +194,7 @@
     </section>
 
     <?php include_once('includes/footer.php'); ?>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
