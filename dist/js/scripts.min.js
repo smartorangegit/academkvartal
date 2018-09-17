@@ -1,3 +1,9 @@
+var academkvartalState = {
+  menuOpen: false
+};
+
+var body = document.getElementsByTagName('body')[0];
+
 //  =====================================================================================================================
 // Animation on scroll
 var animateHTMLCtrl = (function() {
@@ -48,3 +54,42 @@ var animateHTMLCtrl = (function() {
 
 animateHTMLCtrl.init();
 //  =====================================================================================================================
+
+//  =====================================================================================================================
+// Menu open/close start
+var menuCtrl = (function() {
+
+  var menuBtn = document.querySelector('.js-menu__btn');
+  var menuDecorative = document.querySelector('.js-menu__decorative');
+  var menuBtnClose = document.querySelector('.js-menu__btn_close');
+
+  function openMenu() {
+    academkvartalState.menuOpen = true;
+    menuDecorative.classList.add('menu__decorative_open');
+    body.classList.add('overflow-hidden');
+  };
+
+  function closeMenu() {
+    academkvartalState.menuOpen = false;
+    menuDecorative.classList.remove('menu__decorative_open');
+    body.classList.remove('overflow-hidden');
+  };
+
+  function _addEventHandlers() {
+    menuBtn.addEventListener('click',openMenu);
+    menuBtnClose.addEventListener('click', closeMenu);
+  };
+
+  function init() {
+    _addEventHandlers();
+  };
+
+  return {
+    init: init
+  };
+
+})();
+menuCtrl.init();
+// Menu open/close end
+//  =====================================================================================================================
+

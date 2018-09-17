@@ -1,0 +1,30 @@
+.menu__decorative {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: #a2107b; /* Old browsers */
+    background: -moz-linear-gradient(top, #a2107b 0%, #1a70c5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a2107b 0%,#1a70c5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a2107b 0%,#1a70c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2107b', endColorstr='#1a70c5',GradientType=0 ); /* IE6-9 */
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 1s;
+
+    &.menu__decorative_open {
+        transform: none;
+        opacity: 1;
+        transition: opacity 1s;
+    }
+}
+
+// .menu {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     z-index: 11;
+// }

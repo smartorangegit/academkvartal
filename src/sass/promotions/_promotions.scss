@@ -1,0 +1,106 @@
+.promotions {
+    background-color: $blue;
+}
+
+.promotions__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.promotion {
+    width: 48%;
+    margin-top: 27px;
+    a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: box-shadow .5s;
+        overflow: hidden;
+
+        &:hover {
+            box-shadow: 10px 10px 0px 0px rgba(0,94,154,1);
+            .promotion__image {
+                transform: scale(1.05);
+            }
+            .promotion__heading {
+                color: $purple;
+            }
+        }
+    }
+}
+
+.promotion__image {
+    width: 100%;
+    min-height: 240px;
+    background-size: cover;
+    background-position: center;
+    transition: transform .5s;
+}
+
+.promotion__image_1 {background-image: url('../img/promotions/prom_1.png');}
+.promotion__image_2 {background-image: url('../img/promotions/prom_2.png');}
+.promotion__image_3 {background-image: url('../img/promotions/prom_3.png');}
+.promotion__image_4 {background-image: url('../img/promotions/prom_4.png');}
+.promotion__image_5 {background-image: url('../img/promotions/prom_5.png');}
+.promotion__image_6 {background-image: url('../img/promotions/prom_6.png');}
+.promotion__image_7 {background-image: url('../img/promotions/prom_7.png');}
+.promotion__image_8 {background-image: url('../img/promotions/prom_8.png');}
+
+
+.promotion__text {
+    background-color: #fff;
+    padding: 26px 88px 31px 24px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.promotion__heading {
+    color: $blue;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+    font-size: 1.5rem;
+    transition: color .5s;
+}
+
+.promotion__date {
+    color: #b3b3b3;    
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.625rem;
+}
+
+.promotions__alert {
+    position: relative;
+    img {
+        position: absolute;
+        top: -280px;
+        right: 0px;
+    }
+}
+
+
+.promotion__bottom-container {
+    position: relative;
+}
+
+.promotions__bottom-img {
+    position: absolute;
+    top: -150px;
+}
+
+.promotions__bottom-img_guy {
+    left: 20px;
+}
+
+.promotions__bottom-img_girl {
+    right: 20px;
+}

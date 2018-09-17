@@ -220,3 +220,80 @@ a {
 	letter-spacing: 0.45px;
 	font-family: 'Geometria';
 }
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.page-heading {
+	background-image: url('../img/common/page_heading_bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	h1 {
+		color: $purple;
+		font-size: 3rem;
+		letter-spacing: 1.2px;
+		text-align: center;
+	}
+}
+
+.page-blue_bg {
+	background-color: $blue;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.page-breadcrumbs {
+	margin-top: -50px;
+	color: $lightgrey;
+}
+
+.page-breadcrumbs__item_active {
+	color: #fff;
+}
+
+.page-breadcrumbs__item_active-blue {
+	color: $blue;
+}
+
+.page-pagination__arrow {
+	width: 13px;
+	height: 11px;
+}
+
+.page-pagiantion__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 500px;
+	margin: 50 auto;
+	color: #fff;
+	fill: #fff;
+}
+
+.page-pagination__list {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin: 0 auto;
+	align-items: center;
+	a {
+		width: 45px;
+		height: 45px;
+		display: block;
+		border-radius: 50%;
+		line-height: 45px;
+		text-align: center;
+		&.page-pagination_active-link {
+			background-color: $orange;
+		}
+	}
+}

@@ -37,12 +37,22 @@ gulp.task('main-js', function() {
 	.pipe(gulp.dest('dist/js'));
 });
 // Main end
-
+// infrastructure start
+gulp.task('infrastructure-js', function() {
+	return gulp.src([
+		'src/js/infrastructure.js',
+		])
+	.pipe(concat('infrastructure.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// infrastructure end
 
 
 gulp.task('js', [
 	'common-js',
-	'main-js'
+	'main-js',
+	'infrastructure-js'
 ], function() {
 	return gulp.src([
 		'src/js/common.js',

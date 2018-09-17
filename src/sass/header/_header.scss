@@ -1,0 +1,102 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-nav__phone {
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: 500;
+    padding-left: 35px;
+    margin-right: 34px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-image: url('../img/main/phone_icon.png'); 
+}
+
+.header-nav__call-btn {
+    margin-right: 31px;
+}
+
+.header-nav__menu {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.625rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.header-nav__menu-text {
+    margin-right: 18px;
+}
+
+
+.academ_logo {
+    position: absolute;
+    top: -190px;
+    left: -60px;
+}
+
+.menu__btn {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        border-radius: 10px;
+
+        .menu__btn-line_2 {
+            left: 50%;
+            top: 31px;
+            transform: rotateZ(-37deg);
+        }
+        .menu__btn-line_3 {
+            transform: rotateZ(37deg);
+            left: 50%;
+            top: 19px;
+        }
+    }
+}
+
+.menu__btn-line {
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+}
+
+.menu__btn-line_1 {
+    width: 37px;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu__btn-line_2 {
+    width: 20px;
+    top: 35px;
+    left: 20%;
+    transition: all 0.3s;
+}
+.menu__btn-line_3 {
+    width: 20px;
+    top: 35px;
+    left: 20%;
+    transition: all 0.3s;
+}

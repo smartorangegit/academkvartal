@@ -2,12 +2,12 @@
 	 viewBox="0 0 1920 1080" xml:space="preserve">
 <g id="BG">
     <defs>
-    <linearGradient id="sky_gradient" gradientUnits="userSpaceOnUse" x1="960" y1="5590" x2="960" y2="4920" gradientTransform="matrix(1 0 0 1 0 -4920)">
-      <stop class="sky-gradient sky-gradient_1"  offset="0" stop-color="#CEFCFF"/>
-      <stop class="sky-gradient sky-gradient_2"  offset=".5" stop-color="#2F92C9"/>
-      <stop class="sky-gradient sky-gradient_3"  offset="1" stop-color="#1870C4"/>
-      <stop class="sky-gradient sky-gradient_4"  offset="1" stop-color="#A3107C"/>
-    </linearGradient>
+		<linearGradient id="sky_gradient" gradientUnits="userSpaceOnUse" x1="960" y1="5590" x2="960" y2="4920" gradientTransform="matrix(1 0 0 1 0 -4920)">
+			<stop class="sky-gradient sky-gradient_1"  offset="0" stop-color="#CEFCFF"/>
+			<stop class="sky-gradient sky-gradient_2"  offset=".5" stop-color="#2F92C9"/>
+			<stop class="sky-gradient sky-gradient_3"  offset="1" stop-color="#1870C4"/>
+			<stop class="sky-gradient sky-gradient_4"  offset="1" stop-color="#A3107C"/>
+		</linearGradient>
     </defs>
     
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="959.85" y1="5944.3408" x2="959.85" y2="5536.0483" gradientTransform="matrix(1 0 0 1 0 -4920)">
@@ -1001,7 +1001,7 @@
 	<text transform="matrix(1 0 0 1 942.8469 860.667)" class="st14 st29 st30">10 хв. на авто</text>
 </g>
 <g id="Car_3_1_">
-	<rect x="1415.2" y="813.3" class="st32" width="127.9" height="17.6"/>
+	<rect x="1415.2" y="813.3" class="st32 car_rect_test" width="127.9" height="17.6"/>
 	<rect x="1415.2" y="833.2" class="st32" width="112.5" height="17.6"/>
 	<g id="Car_3">
 		<g>
@@ -1445,7 +1445,7 @@
 		</g>
 	</g>
 </g>
-<g id="Stars">
+<g id="Stars" class="main-hero-svg__stars">
 	<circle class="st297" cx="140.3" cy="13.5" r="3"/>
 	<circle class="st297" cx="934.5" cy="351.5" r="2"/>
 	<circle class="st297" cx="962.9" cy="298.3" r="2"/>
@@ -3404,5 +3404,5 @@
 			c-0.2-0.3-0.4-0.4-0.6-0.4c-0.5-0.1-0.9,0.5-0.5,1c0.1,0.1,0.2,0.2,0.3,0.3C1241.4,787.2,1241.9,786.5,1241.7,786z"/>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 370.825 269.6279)" class="st14 st29 st146">Квартал власного затишку</text>
+<text transform="matrix(1 0 0 1 370.825 269.6279)" class="st146 main-page-hero__heading">Квартал власного затишку</text>
 </svg>

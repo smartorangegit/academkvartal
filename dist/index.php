@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php include_once('includes/menu.php'); ?>
     <section class="hero">
+        <?php include_once('includes/header.php'); ?>
         <!-- <div class="container hero__container">
             <div class="hero__academ_logo">
                 <img src="img//main/academkvartal_logo.png" alt="Академ Квартал Логотип" />
