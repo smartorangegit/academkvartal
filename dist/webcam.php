@@ -8,6 +8,7 @@
     <title>Веб-камера</title>
 </head>
 <body class="webcam">
+<?php include_once('includes/menu.php'); ?>
     <div class="page-blue_bg"></div>
     <?include_once('includes/header.php'); ?>
     <section>

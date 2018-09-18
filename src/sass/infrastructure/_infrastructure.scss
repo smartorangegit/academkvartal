@@ -1,5 +1,177 @@
+.map_container {
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
 .map {
     width: 100%;
     height: 700px;
     border-radius: 20px;
+}
+
+.marker {
+    color: #262e29;
+    font-weight: 500;
+}
+
+.marker__name {
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.marker__address {
+    font-size: 0.75rem;
+    line-height: 24px;
+}
+
+// legend
+.legend {
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    color: #000;
+    font-size: .75rem;
+    font-weight: 500;
+    table {
+        background-color: #fff;
+        border-radius: 30px;
+    }
+}
+.legend__text {
+    line-height: 30px;
+    padding: 0 20px 
+}
+
+.legend__icon-color {
+    width: 60px;
+    height: 30px;
+    vertical-align: middle;
+}
+.legend__icon-color_souvenirs{background-color: #e4452c; border-radius: 30px 0 0 0;}
+.legend__icon-color_sport{background-color: #a2cb47;}
+.legend__icon-color_education{background-color: #81b43f;}
+.legend__icon-color_toy-shop{background-color: #0280d0;}
+.legend__icon-color_restaraunts{background-color: #b90070;}
+.legend__icon-color_schools{background-color: #3e1f16;}
+.legend__icon-color_dentist{background-color: #940214;}
+.legend__icon-color_pharmacy{background-color: #dd395a;}
+.legend__icon-color_shop{background-color: #e8c001;}
+.legend__icon-color_shopping-mall{background-color: #015c7a;}
+.legend__icon-color_bank{background-color: #936eb6;border-radius: 0 0 0 30px;}
+
+.legend__icon {
+    background-image: url('../img/infrastructure/legend_spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+}
+
+.legend__icon_bank {
+    width: 10px;
+    height: 15px;
+    background-position: -2px -2px;
+}
+
+.legend__icon_dentist {
+    width: 13px;
+    height: 13px;
+    background-position: -16px -2px;
+}
+
+.legend__icon_education {
+    width: 22px;
+    height: 14px;
+    background-position: -33px -2px;
+}
+
+.legend__icon_pharmacy {
+    width: 14px;
+    height: 14px;
+    background-position: -59px -2px;
+}
+
+.legend__icon_restaraunts {
+    width: 20px;
+    height: 15px;
+    background-position: -77px -2px;
+}
+
+.legend__icon_schools {
+    width: 25px;
+    height: 18px;
+    background-position: -101px -2px;
+}
+
+.legend__icon_shop {
+    width: 15px;
+    height: 15px;
+    background-position: -130px -2px;
+}
+
+.legend__icon_shopping-mall {
+    width: 14px;
+    height: 14px;
+    background-position: -149px -2px;
+}
+
+.legend__icon_souvenirs {
+    width: 15px;
+    height: 15px;
+    background-position: -167px -2px;
+}
+
+.legend__icon_sport {
+    width: 22px;
+    height: 10px;
+    background-position: -186px -2px;
+}
+
+.legend__icon_toy-shop {
+    width: 20px;
+    height: 16px;
+    background-position: -212px -2px;
+}
+
+.btn_infrastructure {
+    width: 100%;
+    margin-top: 22px;
+}
+// animations
+.legend {
+    table {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.legend__text {
+    transition: all 0.5s;
+}
+
+.btn_infrastructure {
+    transition: all 0.5s 2.4s;
+    z-index: 1;
+}
+
+.legend__text_1 {transition-delay: .2s;}
+.legend__text_2 {transition-delay: .4s;}
+.legend__text_3 {transition-delay: .6s;}
+.legend__text_4 {transition-delay: .8s;}
+.legend__text_5 {transition-delay: 1s;}
+.legend__text_6 {transition-delay: 1.2s;}
+.legend__text_7 {transition-delay: 1.4s;}
+.legend__text_8 {transition-delay: 1.6s;}
+.legend__text_9 {transition-delay: 1.8s;}
+.legend__text_10 {transition-delay: 2s;}
+.legend__text_11 {transition-delay: 2.2s;}
+
+.animate {
+    .legend__text {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    .btn_infrastructure {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
 }

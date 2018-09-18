@@ -1,5 +1,6 @@
 @import 'reset';
 @import 'vars';
+@import 'libs/slick';
 @import 'common/common';
 @import 'common/common-media';
 @import 'main/main';
@@ -19,3 +20,9 @@
 @import 'about-complex/about-complex-media.scss';
 @import 'infrastructure/infrastructure';
 @import 'infrastructure/infrastructure-media.scss';
+@import 'gallery/gallery';
+@import 'gallery/gallery-media.scss';
+@import 'contacts/contacts';
+@import 'contacts/contacts-media.scss';
+@import 'video/video';
+@import 'video/video-media.scss';

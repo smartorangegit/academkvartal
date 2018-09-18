@@ -60,18 +60,18 @@ animateHTMLCtrl.init();
 var menuCtrl = (function() {
 
   var menuBtn = document.querySelector('.js-menu__btn');
-  var menuDecorative = document.querySelector('.js-menu__decorative');
+  var menu = document.querySelector('.js-menu');
   var menuBtnClose = document.querySelector('.js-menu__btn_close');
 
   function openMenu() {
     academkvartalState.menuOpen = true;
-    menuDecorative.classList.add('menu__decorative_open');
+    menu.classList.add('menu__open');
     body.classList.add('overflow-hidden');
   };
 
   function closeMenu() {
     academkvartalState.menuOpen = false;
-    menuDecorative.classList.remove('menu__decorative_open');
+    menu.classList.remove('menu__open');
     body.classList.remove('overflow-hidden');
   };
 

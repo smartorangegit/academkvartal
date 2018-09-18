@@ -37,9 +37,11 @@ gulp.task('main-js', function() {
 	.pipe(gulp.dest('dist/js'));
 });
 // Main end
+
 // infrastructure start
 gulp.task('infrastructure-js', function() {
 	return gulp.src([
+		'src/js/libs/infobubble.js',
 		'src/js/infrastructure.js',
 		])
 	.pipe(concat('infrastructure.min.js'))
@@ -48,11 +50,36 @@ gulp.task('infrastructure-js', function() {
 });
 // infrastructure end
 
+// Gallery start
+gulp.task('gallery-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.js',
+		'src/js/gallery.js',
+		])
+	.pipe(concat('gallery.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// Gallery end
+
+// contacts start
+gulp.task('contacts-js', function() {
+	return gulp.src([
+		'src/js/contacts.js',
+		])
+	.pipe(concat('contacts.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// contacts end
+
 
 gulp.task('js', [
 	'common-js',
 	'main-js',
-	'infrastructure-js'
+	'infrastructure-js',
+	'gallery-js',
+	'contacts-js'
 ], function() {
 	return gulp.src([
 		'src/js/common.js',

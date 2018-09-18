@@ -1,7 +1,7 @@
 <div class="header">
     <div class="container hero__container">
         <div class="academ_logo">
-            <img src="img/main/academkvartal_logo.png" alt="Академ Квартал Логотип" />
+            <img src="img/common/academkvartal_logo.png" alt="Академ Квартал Логотип" />
         </div>
         <div class="header-nav">
             <div class="header-nav__phone">(044) 135-12-21</div>

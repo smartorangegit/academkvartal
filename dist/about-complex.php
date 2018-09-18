@@ -8,8 +8,9 @@
     <title>Про комплекс</title>
 </head>
 <body class="about-complex">
+<?php include_once('includes/menu.php'); ?>
     <div class="page-blue_bg"></div>
-    <?include_once('includes/header.php'); ?>
+    <?php include_once('includes/header.php'); ?>
     <section>
         <div class="page-heading">
             <h1>Про комплекс</h1>
@@ -19,8 +20,8 @@
                 <span class="page-breadcrumbs__item"><a href="/">Головна</a></span>  //  <span class="page-breadcrumbs__item page-breadcrumbs__item_active-blue">Про комплекс</span>
             </div>
         </div>
-        <div class="container">
-            <div class="about-complex__block about-complex__block_1">
+        <div class="container about-complex__container">
+            <div class="about-complex__block about-complex__block_1 animate">
                 <div class="about-complex__block_text">
                     <p class="about-complex__paragraph_1">Житловий комплекс «АКАДЕМ-КВАРТАЛ» - це поєднання сучасної архітектури і високих вимог до комфорту мешканців. Ви будете приємно здивовані як гармонійно тут поєднуються зручна транспортна розв'язка, близьке розташування рекреаційних зон, школи, дитячі садки.</p>
                 </div>
@@ -28,7 +29,7 @@
                     <img src="img/about-complex/ac_img_1.png" alt="About Complex image 1">
                 </div>
             </div>
-            <div class="about-complex__block about-complex__block_2">
+            <div class="about-complex__block about-complex__block_2 animate">
                 <div class="about-complex__image">
                     <img src="img/about-complex/ac_img_2.png" alt="About Complex image 2">
                 </div>
@@ -42,7 +43,7 @@
                         Завдяки чому дворики навколо виглядають акуратно і доглянуто.</p>
                 </div>
             </div>
-            <div class="about-complex__block about-complex__block_3">
+            <div class="about-complex__block about-complex__block_3 animate">
                 <div class="about-complex__block_text">
                     <p class="about-complex__paragraph_2">
                         Соціальна інфраструктура району, де будується «АКАДЕМ-КВАРТАЛ», досить різноманітна. Вибір дитячих садків, шкіл, приватних навчальних закладів та спортивних секцій величезний. На бульварі 
@@ -55,7 +56,7 @@
                     <img src="img/about-complex/ac_img_3.png" alt="About Complex image 3">
                 </div>
             </div>
-            <div class="about-complex__block about-complex__block_4">
+            <div class="about-complex__block about-complex__block_4 animate">
                 <div class="about-complex__image">
                     <img src="img/about-complex/ac_img_4.png" alt="About Complex image 4">
                 </div>
@@ -71,7 +72,7 @@
             </div>
         </div>
     </section>
-    <?include_once('includes/footer.php'); ?>
+    <?php include_once('includes/footer.php'); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
 </body>

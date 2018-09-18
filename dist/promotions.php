@@ -8,7 +8,8 @@
     <title>Акції</title>
 </head>
 <body class="promotions">
-    <?include_once('includes/header.php'); ?>
+    <?php include_once('includes/menu.php'); ?>
+    <?php include_once('includes/header.php'); ?>
     <section>
         <div class="page-heading">
             <h1>Акції</h1>

@@ -390,6 +390,13 @@
 //     transform-origin: bottom right;
 // }
 
+.main-contacts__item {
+    transition: all .5s;
+}
+
+.main-contacts__item:nth-of-type(2) {transition-delay: .2s;}
+.main-contacts__item:nth-of-type(3) {transition-delay: .4s;}
+
 .animate {
     .main-info__image-image {
         opacity: 0;
@@ -411,10 +418,16 @@
         opacity: 0;
     }
 
+    
+
     .main-contacts__heading {
         left: 0;
         opacity: 0;
     }
+    .main-contacts__item {
+        transform: translateY(-30px);
+        opacity: 0;  
+    } 
     .main-contacts__gyro {
         transform: translateX(-250px) rotateY(180deg);
         opacity: 0;
