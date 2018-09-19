@@ -1,0 +1,123 @@
+.developer__intergal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.developer__paragraph {
+    color: $grey;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.developer__paragraph_1 {
+    max-width: 845px;
+}
+
+.developer__numbers {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.developer__numbers-item {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+}
+
+.developer__number {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.developer__number_blue {color: $blue;}
+.developer__number_purple {color: $purple;}
+.developer__number_orange {color: $orange;}
+
+.developer__number-text {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: $grey;
+    line-height: 24px;
+    max-width: 100px;
+}
+
+// awards
+.developer__awards {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/developer/awards_bg.png');
+    padding-top: 110px;
+    padding-bottom: 160px;
+}
+.developer__awards-heading {
+    text-align: center;
+    color: $blue;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 75px;
+}
+
+.developer__awards-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.developer__award {
+    width: 24%;
+}
+
+.award__image {
+    background-color: #fff;
+    text-align: center;
+    height: 165px;
+    font-size: 155px;
+    img {
+        vertical-align: middle;
+    }
+}
+
+.award__text {
+    margin-top: 30px;
+    color: $grey;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+// about
+
+.developer__about {
+    max-width: 860px;
+    margin: 0 auto 20px;
+}
+.developer__about-heading {
+    color: $blue;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.developer__paragraph_2 {
+    margin-top: 35px;
+    text-align: justify;
+}
+
+.developer__about-list {
+    margin-top: 30px;
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $grey;
+    line-height: 24px;
+}

@@ -23,7 +23,7 @@
                             <li><a href="gallery.php">Визуализации</a></li>
                             <li><a href="/">Холлы</a></li>
                             <li><a href="/">Виды из окон</a></li>
-                            <li><a href="/">Ремонты</a></li>
+                            <li><a href="/repair.php">Ремонты</a></li>
                             <li><a href="/video.php">Видеопрезентации</a></li>
                         </ul>
                     </div>
@@ -32,10 +32,11 @@
                         <ul>
                             <li><a href="about-complex.php">О комплексе </a></li>
                             <li><a href="/">Генплан</a></li>
-                            <li><a href="/">Преимущества</a></li>
+                            <li><a href="/advantages.php">Преимущества</a></li>
                             <li><a href="/">Тех. Характеристики</a></li>
                             <li><a href="/infrastructure.php">Инфраструктура</a></li>
                             <li><a href="/">Окружение</a></li>
+                            <li><a href="/documentation.php">Документація</a></li>
                         </ul>
                     </div>
                     <div class="menu__list_2-item">
@@ -61,15 +62,15 @@
                             <ul>
                                 <li><a href="/">Условия приобретения</a></li>
                                 <li><a href="/promotions.php">Акции</a></li>
-                                <li><a href="/">Рассрочка</a></li>
+                                <li><a href="/instalments.php">Рассрочка</a></li>
                                 <li><a href="/">Кредит</a></li>
                             </ul>
                         </div>
                         <div>
                             <h6 class="menu__list_subheading menu__list_subheading_2">Строительство:</h6>
                             <ul>
-                                <li><a href="/">Застройщик</a></li>
-                                <li><a href="/">Ход строительства (фильтры: год месяц)</a></li>
+                                <li><a href="/developer.php">Застройщик</a></li>
+                                <li><a href="/construction.php">Ход строительства (фильтры: год месяц)</a></li>
                                 <li><a href="/webcam.php">Веб-камера</a></li>
                             </ul>
                         </div>

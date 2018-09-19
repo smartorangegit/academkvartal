@@ -1,0 +1,41 @@
+.instalments_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.instalments__paragraph_1 {
+    max-width: 840px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: $blue;
+    line-height: 30px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.instalments_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: -170px;
+}
+
+.instalments_bottom-paragraphs-container {
+    max-width: 700px;
+}
+
+.instalments__paragraph_2 {
+    color: $grey;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 0.875rem;
+    letter-spacing: 0.35px;
+    text-align: justify;
+}
+
+.instalments__paragraph_2-mt {
+    margin-top: 20px;
+
+}

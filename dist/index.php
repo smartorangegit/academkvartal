@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
-    <title>Document</title>
+    <title>Академ Квартал</title>
 </head>
 <body>
     <?php include_once('includes/menu.php'); ?>
@@ -115,44 +115,44 @@
                 <h2 class="main-news__subheading">Новини</h2>
                 <a href="#" class="btn">Більше новин</a>
             </div>
-            <ul class="main-news__list">
-                <li class="main-news__item">
+            <ul class="news__list">
+                <li class="news__item">
                     <a href="#">
-                        <div class="main-news__item-image main-news__item-image_1">
+                        <div class="main-news__item-image news__item-image main-news__item-image_1">
                         </div>
-                        <div class="main-news__item-text">
-                            <div class="main-news__item-heading">
+                        <div class="news__item-text">
+                            <div class="news__item-heading">
                                 СТАРТУЄ ПРОДАЖ НОВОГО ЖИТЛОВОГО КОМПЛЕКСУ «АКАДЕМ-КВАРТАЛ»
                             </div>
-                            <div class="main-news__item-date">
+                            <div class="news__item-date">
                                 24.08.2018 &mdash; 19:00
                             </div>
                         </div>
                     </a>
                 </li>
-                <li class="main-news__item">
+                <li class="news__item">
                     <a href="#">
-                        <div class="main-news__item-image main-news__item-image_2">
+                        <div class="main-news__item-image news__item-image main-news__item-image_2">
                         </div>
-                        <div class="main-news__item-text">
-                            <div class="main-news__item-heading">
+                        <div class="news__item-text">
+                            <div class="news__item-heading">
                                 10% знижка першим покупцям! Стань одним із перших!
                             </div>
-                            <div class="main-news__item-date">
+                            <div class="news__item-date">
                                 24.08.2018 &mdash; 19:00
                             </div>
                         </div>
                     </a>
                 </li>
-                <li class="main-news__item">
+                <li class="news__item">
                     <a href="#">
-                        <div class="main-news__item-image main-news__item-image_3">
+                        <div class="main-news__item-image news__item-image main-news__item-image_3">
                         </div>
-                        <div class="main-news__item-text">
-                            <div class="main-news__item-heading">
+                        <div class="news__item-text">
+                            <div class="news__item-heading">
                                 Акційна пропозиція для молодих сімей. Дізнайся Більше!
                             </div>
-                            <div class="main-news__item-date">
+                            <div class="news__item-date">
                                 24.08.2018 &mdash; 19:00
                             </div>
                         </div>
@@ -163,8 +163,8 @@
     </section>
 
     <section class="main-contacts animate">
+        <h3 class="main-contacts__heading">Контакти</h3>
         <div class="container main-contacts__container">
-            <h3 class="main-contacts__heading">Контакти</h3>
             <img class="main-contacts__gyro" src="img/main/gyro_dude.png" alt="Gyroscooter Dude">
             <img class="main-contacts__bycicle" src="img/main/bycicle_girl.png" alt="Bycicle Girl">
             <div class="addresses">

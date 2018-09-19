@@ -302,3 +302,48 @@ a {
 		}
 	}
 }
+
+// mini filter for news and construction
+.mini-filter__container {
+    margin-top: 27px;
+    border: 1px solid #fff;
+    border-radius: 47px;
+    padding: 22px 0;
+}
+
+.mini-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-filter-year,
+.mini-filter-month {
+    margin-right: 20px;
+}
+
+.mini-filter-label {
+    margin-right: 20px;
+}
+
+.mini-filter__select {
+	outline: none;
+    width: 178px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+	padding-left: 20px;
+    option {
+        background-color: $blue;
+        display: inline-block;
+    }
+}
+
+.mini-filter__btn {
+    width: 370px;
+    height: 48px;
+    line-height: 48px;
+    border: none;
+}

@@ -24,12 +24,108 @@
            <div class="video__list">
                <div class="video__item">
                     <div class="video__video video__video_1">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="video__text">
                         <div class="video__name">Винтаж</div>
                         <div class="video__date">24.08.2018 &mdash; 19:00</div>
                     </div>
                </div>
+               <div class="video__item">
+                    <div class="video__video video__video_2">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__text">
+                        <div class="video__name">ХАЙ-ТЕК</div>
+                        <div class="video__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                </div>
+                <div class="video__item">
+                    <div class="video__video video__video_3">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__text">
+                        <div class="video__name">ФЬЮЖН</div>
+                        <div class="video__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                </div>
+                <div class="video__item">
+                    <div class="video__video video__video_4">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__text">
+                        <div class="video__name">Минимализм</div>
+                        <div class="video__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                </div>
+                <div class="video__item">
+                    <div class="video__video video__video_5">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__text">
+                        <div class="video__name">Конструктивизм</div>
+                        <div class="video__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                </div>
+                <div class="video__item">
+                    <div class="video__video video__video_6">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__text">
+                        <div class="video__name">Китч</div>
+                        <div class="video__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                </div>
+                <div class="video__item">
+                    <div class="video__video video__video_7">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__text">
+                        <div class="video__name">Техно</div>
+                        <div class="video__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                </div>
+                <div class="video__item">
+                    <div class="video__video video__video_8">
+                        <div class="video__circle">
+                            <div class="video__triangle video__triangle_outer">
+                                <div class="video__triangle video__triangle_inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__text">
+                        <div class="video__name">Поп-арт</div>
+                        <div class="video__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                </div>
            </div>
         </div>
         

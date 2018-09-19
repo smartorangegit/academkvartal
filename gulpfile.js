@@ -73,13 +73,63 @@ gulp.task('contacts-js', function() {
 });
 // contacts end
 
+// news start
+gulp.task('news-js', function() {
+	return gulp.src([
+		'src/js/news.js',
+		])
+	.pipe(concat('news.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// news end
+
+// repair start 
+gulp.task('repair-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.js',
+		'src/js/repair.js',
+		])
+	.pipe(concat('repair.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// repair end
+
+// construction start
+gulp.task('construction-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.js',
+		'src/js/construction.js',
+		])
+	.pipe(concat('construction.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// construction end
+
+// news-open start
+gulp.task('news-open-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.js',
+		'src/js/news-open.js',
+		])
+	.pipe(concat('news-open.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// news-open end
 
 gulp.task('js', [
 	'common-js',
 	'main-js',
 	'infrastructure-js',
 	'gallery-js',
-	'contacts-js'
+	'contacts-js',
+	'news-js',
+	'repair-js',
+	'construction-js',
+	'news-open-js'
 ], function() {
 	return gulp.src([
 		'src/js/common.js',

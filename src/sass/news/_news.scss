@@ -1,0 +1,49 @@
+.news {
+    background-color: $blue;
+}
+
+// list
+.news__list_2 {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    .news__item {
+        margin-top: 20px;
+    }
+}
+.news__page-pagiantion {
+    margin-top: 95px;
+}
+.news__item-image {
+    height: 240px;
+}
+
+.news__item-image_1{background-image: url('../img/news/news__item-img_1.jpg');}
+.news__item-image_2{background-image: url('../img/news/news__item-img_2.jpg');}
+.news__item-image_3{background-image: url('../img/news/news__item-img_3.jpg');}
+.news__item-image_4{background-image: url('../img/news/news__item-img_4.jpg');}
+.news__item-image_5{background-image: url('../img/news/news__item-img_5.jpg');}
+.news__item-image_6{background-image: url('../img/news/news__item-img_6.jpg');}
+.news__item-image_7{background-image: url('../img/news/news__item-img_7.jpg');}
+.news__item-image_8{background-image: url('../img/news/news__item-img_8.jpg');}
+.news__item-image_9{background-image: url('../img/news/news__item-img_9.jpg');}
+.news__item-image_10{background-image: url('../img/news/news__item-img_10.jpg');}
+.news__item-image_11{background-image: url('../img/news/news__item-img_11.jpg');}
+.news__item-image_12{background-image: url('../img/news/news__item-img_12.jpg');}
+
+// people
+.news__people {
+    position: relative;
+}
+
+.news__people-person {
+    position: absolute;   
+    top: -70px;
+}
+
+.news__people-person_eating {
+    left: -100px;
+}
+
+.news__people-person_running {
+    right: -30px;
+}

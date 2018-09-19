@@ -7,6 +7,7 @@
 
 .video__item {
     width: 48%;
+    margin-bottom: 50px;
 }
 .video__video {
     width: 100%;
@@ -14,6 +15,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 .video__text {
@@ -42,3 +44,39 @@
 .video__video_6{background-image: url('../img/video/video_item_img_6.png');}
 .video__video_7{background-image: url('../img/video/video_item_img_7.png');}
 .video__video_8{background-image: url('../img/video/video_item_img_8.png');}
+
+
+.video__circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.video__triangle {
+    height: 0;
+    position: absolute;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.video__triangle_outer {
+    top: 22px;
+    left: 25px;
+    border-width: 12px 0 12px 21px;
+    border-left-color: $blue;
+}
+
+
+.video__triangle_inner {
+    top: -8px;
+    left: -19px;
+    border-width: 8px 0 8px 14px;
+    border-left-color: #fff;
+}
