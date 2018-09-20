@@ -1,0 +1,40 @@
+
+.halls__main-item {
+    border-radius: 20px; 
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.halls__main-item_1 {background-image: url('../img/halls/gal_item_1.jpg');}
+.halls__main-item_2 {background-image: url('../img/halls/gal_item_2.jpg');}
+.halls__main-item_3 {background-image: url('../img/halls/gal_item_3.jpg');}
+.halls__main-item_4 {background-image: url('../img/halls/gal_item_4.jpg');}
+.halls__main-item_5 {background-image: url('../img/halls/gal_item_5.jpg');}
+.halls__main-item_6 {background-image: url('../img/halls/gal_item_6.jpg');}
+.halls__main-item_7 {background-image: url('../img/halls/gal_item_7.jpg');}
+.halls__main-item_8 {background-image: url('../img/halls/gal_item_8.jpg');}
+
+
+.halls__nav-item {
+    max-width: 118px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.halls__nav-item_1 {background-image: url('../img/halls/gal_item_1.jpg');}
+.halls__nav-item_2 {background-image: url('../img/halls/gal_item_2.jpg');}
+.halls__nav-item_3 {background-image: url('../img/halls/gal_item_3.jpg');}
+.halls__nav-item_4 {background-image: url('../img/halls/gal_item_4.jpg');}
+.halls__nav-item_5 {background-image: url('../img/halls/gal_item_5.jpg');}
+.halls__nav-item_6 {background-image: url('../img/halls/gal_item_1.jpg');}
+.halls__nav-item_7 {background-image: url('../img/halls/gal_item_1.jpg');}
+.halls__nav-item_8 {background-image: url('../img/halls/gal_item_1.jpg');}

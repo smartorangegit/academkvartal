@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Інфраструктура</title>
+    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body class="infrastructure">
+<?php include_once('includes/gtm_body.php'); ?>
+
     <?php include_once('includes/menu.php'); ?>
+    <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
     <section>
@@ -22,7 +26,7 @@
         </div>
         <div class="container map_container">
             <div class="map js-map"></div>
-            <div class="legend animate">
+            <!-- <div class="legend animate">
             <table>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_souvenirs"> 
@@ -93,7 +97,7 @@
             </table>
 
             <a href="#" class="btn btn_orange btn_infrastructure">Перейти до вибору квартири</a>
-        </div>
+        </div> -->
         </div>
         
     </section>
@@ -102,5 +106,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDssdEK_-ltBLRmxTIFH3xio-sx8EIAVBY"></script>
     <script src="js/common.min.js"></script>
     <script src="js/infrastructure.min.js"></script>
+    <script src="js/support.js"></script>
 </body>
 </html>

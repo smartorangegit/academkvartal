@@ -1,9 +1,10 @@
 var contactsCtrl = (function() {
     
     function init() {
+        
         var center = {
-            lat: 50.437251,
-            lng: 30.407690
+            lat: 50.472404,
+            lng: 30.362129
         };
     
         var map = new google.maps.Map(document.querySelector('.js-contacts__map'), {

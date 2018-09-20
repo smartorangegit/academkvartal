@@ -3,8 +3,8 @@ var infrastructureCtrl = (function() {
     function init() {
         
         var center = {
-            lat: 50.437251,
-            lng: 30.407690
+            lat: 50.472404,
+            lng: 30.362129
         };
     
         var map = new google.maps.Map(document.querySelector('.js-map'), {
@@ -37,60 +37,60 @@ var infrastructureCtrl = (function() {
     
         var markersData = [
             {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437251, lng: 30.407690},
+                content: '<div class="marker"><div class="marker__name">Академ Квартал</div><div class="marker__address">Приборный пер., 10</div></div>',
+                position: {lat: 50.472404, lng: 30.362129},
                 type: 'main'
             },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.438027, lng: 30.406896},
-                type: 'education'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437992, lng: 30.407704},
-                type: 'sport'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437708, lng: 30.407036},
-                type: 'souvenirs'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437834, lng: 30.408168},
-                type: 'restaraunt'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437147, lng: 30.407090},
-                type: 'toy_shop'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437103, lng: 30.408270},
-                type: 'school'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437493, lng: 30.408192},
-                type: 'shopping_mall'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437449, lng: 30.408460},
-                type: 'dentist'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437155, lng: 30.408747},
-                type: 'pharmacy'
-            },
-            {
-                content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
-                position: {lat: 50.437351, lng: 30.409088},
-                type: 'shop'
-            }
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.438027, lng: 30.406896},
+            //     type: 'education'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437992, lng: 30.407704},
+            //     type: 'sport'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437708, lng: 30.407036},
+            //     type: 'souvenirs'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437834, lng: 30.408168},
+            //     type: 'restaraunt'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437147, lng: 30.407090},
+            //     type: 'toy_shop'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437103, lng: 30.408270},
+            //     type: 'school'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437493, lng: 30.408192},
+            //     type: 'shopping_mall'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437449, lng: 30.408460},
+            //     type: 'dentist'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437155, lng: 30.408747},
+            //     type: 'pharmacy'
+            // },
+            // {
+            //     content: '<div class="marker"><div class="marker__name">Marker text</div><div class="marker__address">Address</div></div>',
+            //     position: {lat: 50.437351, lng: 30.409088},
+            //     type: 'shop'
+            // }
         ];
     
         var activeInfoBubble;

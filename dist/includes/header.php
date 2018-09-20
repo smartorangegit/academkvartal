@@ -1,12 +1,14 @@
 <div class="header">
     <div class="container hero__container">
         <div class="academ_logo">
-            <img src="img/common/academkvartal_logo.png" alt="Академ Квартал Логотип" />
+            <a href="/">
+                <img src="img/common/academkvartal_logo.png" alt="Академ Квартал Логотип" />
+            </a>
         </div>
         <div class="header-nav">
-            <div class="header-nav__phone">(044) 135-12-21</div>
+            <div class="header-nav__phone">(044) 391-01-00</div>
             <div class="header-nav__call-btn">
-                <button type="button" class="btn ">Замовити дзвінок</button>
+                <button type="button" class="btn js-show-callback-form">Замовити дзвінок</button>
             </div>
             <div class="header-nav__menu">
                 <span class="header-nav__menu-text">Меню</span>

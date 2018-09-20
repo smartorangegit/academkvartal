@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Новини</title>
+    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body class="news">
+<?php include_once('includes/gtm_body.php'); ?>
+
     <?php include_once('includes/menu.php'); ?>
+    <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
     <section>
@@ -56,7 +60,7 @@
             <div>
                 <ul class="news__list news__list_2">
                     <li class="news__item">
-                        <a href="#">
+                        <a href="/news-open-1.php">
                             <div class="news__item-image news__item-image_1">
                             </div>
                             <div class="news__item-text">
@@ -70,7 +74,7 @@
                         </a>
                     </li>
                     <li class="news__item">
-                        <a href="#">
+                        <a href="/news-open-2.php">
                             <div class="news__item-image news__item-image_2">
                             </div>
                             <div class="news__item-text">
@@ -83,7 +87,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="news__item">
+                    <!-- <li class="news__item">
                         <a href="#">
                             <div class="news__item-image news__item-image_3">
                             </div>
@@ -222,9 +226,10 @@
                                 </div>
                             </div>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
-                <div class="page-pagiantion news__page-pagiantion">
+                <div style="height: 120px; width: 100%"></div>
+                <!-- <div class="page-pagiantion news__page-pagiantion">
                     <div class="container page-pagiantion__container">
                         <div class="page-pagination__arrow page-pagination__arrow_left">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -266,7 +271,7 @@
                             </svg>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="news__people">
                     <img class="news__people-person news__people-person_eating" src="img/news/news_people_picnic.png" alt="News people picnic">
                     <img class="news__people-person news__people-person_running" src="img/news/news__poeple_runners.png" alt="News people running">
@@ -278,5 +283,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
     <script src="js/news.min.js"></script>
+    <script src="js/support.js"></script>
 </body>
 </html>

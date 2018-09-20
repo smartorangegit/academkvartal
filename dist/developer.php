@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Забудовник</title>
+    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body class="developer">
+    <?php include_once('includes/gtm_body.php'); ?>
     <?php include_once('includes/menu.php'); ?>
+    <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
     <section>
@@ -193,5 +196,6 @@
     <?php include_once('includes/footer.php'); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
+    <script src="js/support.js"></script>
 </body>
 </html>

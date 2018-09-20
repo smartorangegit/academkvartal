@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
-    <title>Інфраструктура</title>
+    <title>Візуалізації</title>
+    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body class="gallery">
+    <?php include_once('includes/gtm_body.php'); ?>
     <?php include_once('includes/menu.php'); ?>
+    <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
     <section>
@@ -28,9 +31,6 @@
                     <div class="gallery__main-item gallery__main-item_3"></div>
                     <div class="gallery__main-item gallery__main-item_4"></div>
                     <div class="gallery__main-item gallery__main-item_5"></div>
-                    <div class="gallery__main-item gallery__main-item_6"></div>
-                    <div class="gallery__main-item gallery__main-item_7"></div>
-                    <div class="gallery__main-item gallery__main-item_8"></div>
                 </div>
                 <div class="gallery__main-arrows">
                     <div class="gallery__main-arrow gallery__main-arrow_left js-gallery__main-arrow_left">
@@ -60,9 +60,6 @@
                         <div class="gallery__nav-item gallery__nav-item_3"></div>
                         <div class="gallery__nav-item gallery__nav-item_4"></div>
                         <div class="gallery__nav-item gallery__nav-item_5"></div>
-                        <div class="gallery__nav-item gallery__nav-item_6"></div>
-                        <div class="gallery__nav-item gallery__nav-item_7"></div>
-                        <div class="gallery__nav-item gallery__nav-item_8"></div>
                     </div>
                     <div class="gallery__nav-arrows">
                         <div class="gallery__nav-arrow gallery__nav-arrow_left js-gallery__nav-arrow_left">
@@ -93,5 +90,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
     <script src="js/gallery.min.js"></script>
+    <script src="js/support.js"></script>
 </body>
 </html>

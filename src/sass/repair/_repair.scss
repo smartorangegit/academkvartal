@@ -36,9 +36,9 @@
     font-weight: 700;
 }
 
-.repair__repair_1{background-image: url('../img/repair/repair_item_img_1.png');}
-.repair__repair_2{background-image: url('../img/repair/repair_item_img_2.png');}
-.repair__repair_3{background-image: url('../img/repair/repair_item_img_3.png');}
+.repair__repair_1{background-image: url('../img/repair/kitchens/kitchen_1.jpg');}
+.repair__repair_2{background-image: url('../img/repair/living/living_1.jpg');}
+.repair__repair_3{background-image: url('../img/repair/bathroom/bathroom_1.jpg');}
 .repair__repair_4{background-image: url('../img/repair/repair_item_img_4.png');}
 .repair__repair_5{background-image: url('../img/repair/repair_item_img_5.png');}
 .repair__repair_6{background-image: url('../img/repair/repair_item_img_6.png');}
@@ -97,15 +97,17 @@
         position: relative;
         overflow: hidden;
         border-radius: 40px;
+        text-align: center;
         img {
-            position: absolute;
-            top: -9999px;
-            right: -9999px;
-            bottom: -9999px;
-            left: -9999px;
-            margin: auto;
-            min-width: 100%;
-            min-height: 100%;
+            margin: 0 auto;
+            // position: absolute;
+            // top: -9999px;
+            // right: -9999px;
+            // bottom: -9999px;
+            // left: -9999px;
+            // margin: auto;
+            // min-width: 100%;
+            // min-height: 100%;
         }
     }
 }
@@ -155,4 +157,8 @@
     top: 20px;
     left: 20px;
 
+}
+
+.gallery__main-arrow_repair {
+    fill: #fff;
 }

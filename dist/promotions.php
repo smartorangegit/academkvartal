@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Акції</title>
+    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body class="promotions">
+<?php include_once('includes/gtm_body.php'); ?>
+
     <?php include_once('includes/menu.php'); ?>
     <?php include_once('includes/header.php'); ?>
+    <?php include_once('includes/callback_form.php'); ?>
     <section>
         <div class="page-heading">
             <h1>Акції</h1>
@@ -25,7 +29,7 @@
         <div class="container">
             <ul class="promotions__list">
                 <li class="promotion">
-                    <a href="#">
+                    <a href="/news-open-1.php">
                         <div class="promotion__image promotion__image_1">
                         </div>
                         <div class="promotion__text">
@@ -39,12 +43,12 @@
                     </a>
                 </li>
                 <li class="promotion">
-                    <a href="#">
+                    <a href="/news-open-2.php">
                         <div class="promotion__image promotion__image_2">
                         </div>
                         <div class="promotion__text">
                             <div class="promotion__heading">
-                            10% знижка першим покупцям! Стань одним із перших!
+                                ЗНИЖКА 10% ПЕРШИМ 10 ПОКУПЦЯМ КВАРТИР <br/>«АКАДЕМ-КВАРТАЛ»
                             </div>
                             <div class="promotion__date">
                                 24.08.2018 &mdash; 19:00
@@ -52,7 +56,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="promotion">
+                <!-- <li class="promotion">
                     <a href="#">
                         <div class="promotion__image promotion__image_3">
                         </div>
@@ -135,10 +139,12 @@
                             </div>
                         </div>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
-        <div class="page-pagiantion promotions__page-pagiantion">
+        <div style="height: 120px; width: 100%"></div>
+
+        <!-- <div class="page-pagiantion promotions__page-pagiantion">
             <div class="container page-pagiantion__container">
                 <div class="page-pagination__arrow page-pagination__arrow_left">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -180,7 +186,7 @@
                     </svg>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="container promotion__bottom-container">
             <img class="promotions__bottom-img promotions__bottom-img_guy" src="img/promotions/promotion_guy.png" alt="Promotions Guy Picture">
             <img class="promotions__bottom-img promotions__bottom-img_girl" src="img/promotions/promotion_girl.png" alt="Promotions Girl Picture">
@@ -189,5 +195,6 @@
     <?include_once('includes/footer.php'); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
+    <script src="js/support.js"></script>
 </body>
 </html>

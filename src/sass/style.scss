@@ -1,6 +1,8 @@
 @import 'reset';
 @import 'vars';
 @import 'libs/slick';
+@import 'libs/ion.rangeSlider';
+@import 'libs/ion.rangeSlider.skinHTML5';
 @import 'common/common';
 @import 'common/common-media';
 @import 'main/main';
@@ -42,3 +44,18 @@
 @import 'instalments/instalments-media.scss';
 @import 'construction/construction';
 @import 'construction/construction-media.scss';
+
+@import 'halls/halls';
+@import 'halls/halls-media.scss';
+@import 'window-views/window-views';
+@import 'window-views/window-views-media.scss';
+
+@import 'filter/filter';
+@import 'filter/filter-media.scss';
+
+@import 'dud/dud';
+@import 'dud/dud-media.scss';
+
+
+@import 'callback-form/callback-form';
+@import 'callback-form/callback-form-media.scss';

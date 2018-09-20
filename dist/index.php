@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Академ Квартал</title>
+    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body>
+    <?php include_once('includes/gtm_body.php'); ?>
     <?php include_once('includes/menu.php'); ?>
+    <?php include_once('includes/callback_form.php'); ?>
     <section class="hero">
         <?php include_once('includes/header.php'); ?>
         <!-- <div class="container hero__container">
@@ -58,6 +61,14 @@
         </div> -->
 
         <?php include_once('includes/main-page-hero.php'); ?>
+
+        <div class="container">
+            <div class="hero__intergal-logo">
+                <a href="https://intergal-bud.com.ua/" target="_blank">
+                    <img src="img/main/intergal_ogo.png" alt="интергал Логотип" />
+                </a>
+            </div>
+        </div>
         
     </section>
 
@@ -71,7 +82,7 @@
                 <div class="main-info__slogan">Зона вашого комфорту!</div>
                 <p class="main-info_paragraph">Житловий комплекс «АКАДЕМ-КВАРТАЛ» - це поєднання сучасної архітектури і високих вимог до комфорту мешканців.</p>
                 <div class="main-info__btn">
-                    <a href="#" class="btn btn_blue">Дивитись розділ</a>
+                    <a href="/about-complex.php" class="btn btn_blue">Дивитись розділ</a>
                 </div>
             </div>
         </div>
@@ -84,7 +95,7 @@
                 <div class="main-info__slogan">Функціональні та ергономічні</div>
                 <p class="main-info_paragraph">У житловому комплексі «АКАДЕМ-КВАРТАЛ» архітектори передбачили комфортні планування квартир з оптимальною площею.</p>
                 <div class="main-info__btn">
-                    <a href="#" class="btn btn_blue">Дивитись розділ</a>
+                    <a href="/dud.php" class="btn btn_blue">Дивитись розділ</a>
                 </div>
             </div>
             <div class="main-info__image main-apartments_image">
@@ -103,7 +114,7 @@
                 <div class="main-info__slogan">3 хв. до м. «Академмістечко»</div>
                 <p class="main-info_paragraph">Гармонійне поєднання зручної транспортної розв'язки, мережі магазинів, супермаркетів, школи, дитячих садків, сфери сервісу та зелених скверів і парків.</p>
                 <div class="main-info__btn">
-                    <a href="#" class="btn btn_blue">Дивитись розділ</a>
+                    <a href="/infrastructure.php" class="btn btn_blue">Дивитись розділ</a>
                 </div>
             </div>
         </div>
@@ -113,11 +124,11 @@
         <div class="container">
             <div class="main-news__top">
                 <h2 class="main-news__subheading">Новини</h2>
-                <a href="#" class="btn">Більше новин</a>
+                <a href="/news.php" class="btn">Більше новин</a>
             </div>
             <ul class="news__list">
                 <li class="news__item">
-                    <a href="#">
+                    <a href="/news-open-1.php">
                         <div class="main-news__item-image news__item-image main-news__item-image_1">
                         </div>
                         <div class="news__item-text">
@@ -131,12 +142,12 @@
                     </a>
                 </li>
                 <li class="news__item">
-                    <a href="#">
+                    <a href="/news-open-2.php">
                         <div class="main-news__item-image news__item-image main-news__item-image_2">
                         </div>
                         <div class="news__item-text">
                             <div class="news__item-heading">
-                                10% знижка першим покупцям! Стань одним із перших!
+                                ЗНИЖКА 10% ПЕРШИМ 10 ПОКУПЦЯМ КВАРТИР «АКАДЕМ-КВАРТАЛ»
                             </div>
                             <div class="news__item-date">
                                 24.08.2018 &mdash; 19:00
@@ -144,8 +155,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="news__item">
-                    <a href="#">
+                <!-- <li class="news__item">
+                    <a href="/dud.php">
                         <div class="main-news__item-image news__item-image main-news__item-image_3">
                         </div>
                         <div class="news__item-text">
@@ -157,7 +168,7 @@
                             </div>
                         </div>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </section>
@@ -169,25 +180,25 @@
             <img class="main-contacts__bycicle" src="img/main/bycicle_girl.png" alt="Bycicle Girl">
             <div class="addresses">
                 <div class="main-contacts__item main-contacts__complex-address">
-                    <h5 class="main-contacts__subheader">Адрес комплекса:</h5>
-                    <p class="main-contacts__paragraph">г. Киев, ул. Академика Каблукова, 23</p>
+                    <h5 class="main-contacts__subheader">Адреса комплексу:</h5>
+                    <p class="main-contacts__paragraph">м. Київ, вул. Приборный пров., 10</p>
                 </div>
                 <div class="main-contacts__item main-contacts__sales-department">
-                    <h5 class="main-contacts__subheader">Отдел продаж:</h5>
-                    <p class="main-contacts__paragraph">Киев, просп. Комарова, 46</p>
+                    <h5 class="main-contacts__subheader">Відділ продаж:</h5>
+                    <p class="main-contacts__paragraph">Київ, просп. Комарова, 46</p>
                     <p class="main-contacts__paragraph">ПН-ПТ: 09:00 – 19:00</p>
-                    <p class="main-contacts__paragraph">СБ-ВС: 10:00 – 17:00</p>
+                    <p class="main-contacts__paragraph">СБ-НД: 10:00 – 17:00</p>
                 </div>
                 <div class="main-contacts__item contacts__consultation">
-                    <h5 class="main-contacts__subheader">Запись на консультацию:</h5>
-                    <p class="main-contacts__paragraph">(044) 391-01-51</p>
+                    <h5 class="main-contacts__subheader">Запис на консультацію:</h5>
+                    <p class="main-contacts__paragraph">(044) 391-01-00</p>
                 </div>
             </div>
             <div class="contacts__form main-contacts__form">
-                <form>
+                <form class="js-main-page-form">
                     <h5 class="contacts__form-heading main-contacts__form-heading">Зворотній зв'язок</h5>
-                    <input type="text" name="name" class="input main-contacts__input" placeholder="Ім'я:">
-                    <input type="text" name="phone" class="input main-contacts__input" placeholder="Телефон:">
+                    <input type="text" name="name" class="input main-contacts__input" placeholder="Ім'я:" required>
+                    <input type="text" name="phone" class="input main-contacts__input" placeholder="Телефон:" required>
                     <textarea name="message" class="textarea main-contacts__textarea" rows="5">Повідомлення:</textarea>
                     <button stype="submit" class="btn contacts__form-btn">Надіслати</button>
                 </form>
@@ -199,5 +210,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
     <script src="js/main.min.js"></script>
+    <script src="js/support.js"></script>
 </body>
 </html>

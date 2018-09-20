@@ -120,6 +120,19 @@ gulp.task('news-open-js', function() {
 });
 // news-open end
 
+
+// filter start
+gulp.task('filter-js', function() {
+	return gulp.src([
+		'src/js/libs/ion.rangeSlider.js',
+		'src/js/filter.js',
+		])
+	.pipe(concat('filter.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// filter end
+
 gulp.task('js', [
 	'common-js',
 	'main-js',
@@ -129,7 +142,8 @@ gulp.task('js', [
 	'news-js',
 	'repair-js',
 	'construction-js',
-	'news-open-js'
+	'news-open-js',
+	'filter-js'
 ], function() {
 	return gulp.src([
 		'src/js/common.js',

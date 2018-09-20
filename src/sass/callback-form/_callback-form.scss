@@ -1,0 +1,42 @@
+.callback-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($blue, 0.9);
+    z-index: 20;
+    display: none;
+    &.callback-form__show {
+        display: block;
+    }
+}
+
+.callback-form__form {
+    padding: 91px 50px 145px 60px;
+    max-width: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.callback-form__form-heading {
+    text-align: center;
+}
+
+.callback-form__form-btn {
+    width: 100%;
+}
+
+.callback-form__form-close-btn {
+    width: 26px;
+    height: 26px;
+    fill: #fff;
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    &:hover {
+        cursor: pointer;
+    }
+}

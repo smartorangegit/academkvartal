@@ -102,10 +102,19 @@
 
 //==============================================================
 
+.hero {
+    position: relative;
+}
+
+.hero__intergal-logo {
+    position: absolute;
+    top: 45%;
+}
 
 .hero__container {
     position: relative;
 }
+
 
 // about complex
 .main-about-complex {
@@ -245,7 +254,7 @@
     background-image: url('../img/main/news_item_1.png');
 }
 .main-news__item-image_2 {
-    background-image: url('../img/main/news_item_2.png');
+    background-image: url('../img/news-open/news_open_2.jpg');
 }
 .main-news__item-image_3 {
     background-image: url('../img/main/news_item_3.png');

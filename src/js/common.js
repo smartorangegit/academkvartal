@@ -1,5 +1,6 @@
 var academkvartalState = {
-  menuOpen: false
+  menuOpen: false,
+  callbackOpen: false
 };
 
 var body = document.getElementsByTagName('body')[0];
@@ -72,7 +73,9 @@ var menuCtrl = (function() {
   function closeMenu() {
     academkvartalState.menuOpen = false;
     menu.classList.remove('menu__open');
-    body.classList.remove('overflow-hidden');
+    if(!academkvartalState.callbackOpen) {
+      body.classList.remove('overflow-hidden');
+    }
   };
 
   function _addEventHandlers() {
@@ -93,3 +96,58 @@ menuCtrl.init();
 // Menu open/close end
 //  =====================================================================================================================
 
+//  =====================================================================================================================
+// Callback form show/hide start
+
+
+(function() {
+
+  var showMenuBtn = $('.js-show-callback-form');
+  var closeMenuBtn = $('.js-callback-form__form-close-btn');
+
+  function showForm() {
+    if(!academkvartalState.menuOpen) {
+      body.classList.add('overflow-hidden');
+    }
+    $('.callback-form').addClass('callback-form__show');
+  };
+
+  function hideForm() {
+    if(!academkvartalState.menuOpen) {
+      body.classList.remove('overflow-hidden');
+    }
+    $('.callback-form').removeClass('callback-form__show');
+  }
+
+  showMenuBtn.click(showForm);
+  closeMenuBtn.click(hideForm);
+
+
+
+  function addForm(formClass) {
+    $(formClass).submit(function(e) {
+      e.preventDefault();
+      var data = $(formClass).serialize();
+      $.ajax({
+        type: "POST",
+        url: 'forms/application.php',
+        data: data,
+        success: function(res) {
+          hideForm();
+          alert('Дякую! Ваші дані відправлені, наші менеджери зв`язуються з Вами найближчим часом');
+        },
+        error: function(err) {
+          console.log(err);
+        }
+      })
+    });
+  };
+
+  addForm('.js-callback-include-form');
+  addForm('.js-main-page-form');
+  addForm('.js-contacts-page-form');
+
+})();
+
+// Callback form show/hide end
+//  =====================================================================================================================

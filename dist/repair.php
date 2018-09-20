@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Ремонти</title>
+    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body class="repair">
+<?php include_once('includes/gtm_body.php'); ?>
+
     <?php include_once('includes/menu.php'); ?>
+    <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
     <section>
@@ -29,21 +33,19 @@
                         </div>
                     </div>
                     <div class="repair__text">
-                        <div class="repair__name">Винтаж</div>
+                        <div class="repair__name">Кухні</div>
                         <div class="repair__date">24.08.2018 &mdash; 19:00</div>
                     </div>
                     <div class="repair__gallery-items js-repair__gallery-items">
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/repair_item_img_1.png" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_1.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_2.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_3.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_4.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_5.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_6.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_7.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_8.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_9.jpg" alt="test"></div>
                     </div>
                </div>
                <div class="repair__item js-repair__item">
@@ -53,8 +55,18 @@
                         </div>
                     </div>
                     <div class="repair__text">
-                        <div class="repair__name">ХАЙ-ТЕК</div>
+                        <div class="repair__name">Житлові кімнати</div>
                         <div class="repair__date">24.08.2018 &mdash; 19:00</div>
+                    </div>
+                    <div class="repair__gallery-items js-repair__gallery-items">
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_1.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_2.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_3.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_4.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_5.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_6.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_7.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_8.jpg" alt="test"></div>
                     </div>
                 </div>
                 <div class="repair__item js-repair__item">
@@ -64,11 +76,23 @@
                         </div>
                     </div>
                     <div class="repair__text">
-                        <div class="repair__name">ФЬЮЖН</div>
+                        <div class="repair__name">С/у</div>
                         <div class="repair__date">24.08.2018 &mdash; 19:00</div>
                     </div>
+                    <div class="repair__gallery-items js-repair__gallery-items">
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_1.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_2.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_3.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_4.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_5.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_6.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_7.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_8.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_9.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_10.jpg" alt="test"></div>
+                    </div>
                 </div>
-                <div class="repair__item js-repair__item">
+                <!-- <div class="repair__item js-repair__item">
                     <div class="repair__repair repair__repair_4">
                         <div class="repair__overlay">
                             Дивитися альбом
@@ -122,7 +146,7 @@
                         <div class="repair__name">Поп-арт</div>
                         <div class="repair__date">24.08.2018 &mdash; 19:00</div>
                     </div>
-                </div>
+                </div> -->
            </div>
         </div>
         <div class="repair__modal js-repair__modal">
@@ -149,7 +173,7 @@
                     </div>
                     <div class="gallery__name js-gallery__name"></div>
                     <div class="gallery__main-arrows">
-                        <div class="gallery__main-arrow gallery__main-arrow_left js-gallery__main-arrow_left">
+                        <div class="gallery__main-arrow gallery__main-arrow_repair gallery__main-arrow_left js-gallery__main-arrow_left">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
                                     viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
                                 <g>
@@ -158,7 +182,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <div class="gallery__main-arrow gallery__main-arrow_right js-gallery__main-arrow_right">
+                        <div class="gallery__main-arrow gallery__main-arrow_repair gallery__main-arrow_right js-gallery__main-arrow_right">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"
                                     viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
                                 <g>
@@ -210,5 +234,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
     <script src="js/repair.min.js"></script>
+    <script src="js/support.js"></script>
 </body>
 </html>
