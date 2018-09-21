@@ -163,6 +163,18 @@ a {
 	}
 }
 
+.btn__bg-image {
+    background-repeat: no-repeat;
+	background-position: 12% 47%;
+	text-transform: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.35px;
+}
+
+.btn__bg-image-text {
+	margin-left: 10px;
+}
+
 .input {
 	display: block;
 	width: 100%;

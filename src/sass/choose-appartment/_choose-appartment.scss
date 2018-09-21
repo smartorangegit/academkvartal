@@ -1,0 +1,167 @@
+.chapp__container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chapp__links {
+    width: 22%;
+    text-align: center;
+}
+
+.chapp__img {
+    width: 52%;
+    img {
+        width: 100%;
+    }
+}
+
+.chapp__data {
+    width: 22%;
+}
+
+.chapp__btn {
+    border: 1px solid #74838d;
+    color: $blue;
+    margin-bottom: 35px;
+}
+
+.btn_floor_bg {
+    background-image: url('../img/choose-appartment/chapp_link_bg.png');
+}
+
+.btn_filter_bg {
+    line-height: 16px;
+    height: 60px;
+    background-image: url('../img/choose-appartment/filter_btn_bg.png');
+}
+
+.chapp__btn_filter {
+    margin-bottom: 75px;
+}
+
+.btn__bg-image-text_filter {
+    max-width: 95px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.chapp__legend {
+    text-align: center;
+}
+
+.chapp__legend-circle {
+    color: $blue;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 24px;
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
+
+.chapp__legend-circle_bought {
+    &::before {
+        background-color: #c4dae0;
+    }
+}
+
+.chapp__legend-circle_1-room {
+    &::before {
+        background-color: #00e28f;
+    }
+}
+
+
+.chapp__legend-circle_2-room {
+    &::before {
+        background-color: #adadff;
+    }
+}
+
+
+.chapp__legend-circle_3-room {
+    &::before {
+        background-color: #00c4ff;
+    }
+}
+
+// compass
+.compass {
+    width: 110px;
+    height: 100px;
+    margin: 0 auto 25px auto;
+    position: relative;
+    text-align: center;
+    img {
+        margin-top: 20px;
+    }
+}
+
+.compass__direction {
+    color: $grey;
+    font-size: 0.625rem;
+    font-weight: 500;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.compass__direction_east {
+    top: 50%;
+    right: 5px;
+}
+
+.compass__direction_west {
+    top: 50%;
+    left: 5px;
+}
+
+.compass__direction_south {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+}
+
+.compass__direction_north {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+
+// apparment data
+.app__info {
+    border: 1px solid $grey;
+    padding: 30px 20px 40px 20px;
+    border-radius: 40px;
+}
+
+.app__info-heading {
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.app__info-table {
+    width: 100%;
+    color: $grey;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+
+    sup { 
+        vertical-align: super;
+        font-size: smaller;
+    }
+}

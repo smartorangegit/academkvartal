@@ -1,0 +1,77 @@
+.appartment__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// left
+.appartment__left {
+    width: 22%;
+    text-align: center;
+}
+
+.btn_appartment_1 {
+    margin-bottom: 15px;
+    border-color: $grey !important;
+}
+
+.btn_appartment_2 {
+    margin-bottom: 25px;
+    border-color: $grey !important;
+}
+.compass__appartment-page {
+    margin-bottom: 30px;
+}
+
+.appartment__plan-heading {
+    font-weight: 500;
+    color: $blue;
+    margin-bottom: 10px;
+}
+// center 
+.appartment__center-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_pdf_bg {
+    border: 1px solid $orange;
+    color: $orange;
+    background-image: url('../img/appartment/pdf.png');
+}
+
+.btn_lock_bg {
+    border: 1px solid $purple;
+    color: $purple;
+    background-image: url('../img/appartment/lock.png');
+}
+
+.btn_key_bg {
+    border: 1px solid $grey;
+    color: $blue;
+    background-image: url('../img/appartment/key.png');
+}
+
+.appartment__center {
+    width: 52%;
+    height: 100%;
+    text-align: center;
+    img {
+        margin-bottom: 110px;
+    }
+}
+
+.appartment__right {
+    width: 22%;
+}
+
+.btn_appartment {
+    border: 1px solid $blue;
+    color: $blue;
+}
+
+
+// right
+.app__info-bold {
+    font-weight: 700;
+}

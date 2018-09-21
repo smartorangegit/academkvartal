@@ -244,6 +244,7 @@ $step: $time/3;
 // birds hide start
 .main-page-hero__birds {
   animation: birds $time infinite alternate;
+  display: none;
 }
 
 @keyframes birds {
