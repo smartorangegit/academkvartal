@@ -4,7 +4,7 @@
     background-position: center;
     background-image: url('../img/common/footer_bg.png');
 
-    padding-top: 270px;
+    padding-top: 350px;
 }
 .footer-nav__container {
     display: flex;
@@ -54,10 +54,14 @@
 }
 
 .footer_container {
-    margin-top: 140px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer__time {
+    margin-left: 10px;
 }
 
 // animations

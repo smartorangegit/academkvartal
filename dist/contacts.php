@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
     <title>Контакти</title>
     <?php include_once('includes/gtm_head.php'); ?>
 </head>
@@ -29,13 +30,13 @@
                     <div class="addresses">
                         <div class="main-contacts__item main-contacts__complex-address">
                         <h5 class="main-contacts__subheader">Адреса комплексу:</h5>
-                        <p class="main-contacts__paragraph">м. Київ, вул. Приборный пров., 10</p>
+                        <p class="main-contacts__paragraph">м. Київ, вул. Приборний пров., 10</p>
                     </div>
                     <div class="main-contacts__item main-contacts__sales-department">
-                        <h5 class="main-contacts__subheader">Відділ продаж:</h5>
+                        <h5 class="main-contacts__subheader">Відділ продажу:</h5>
                         <p class="main-contacts__paragraph">Київ, просп. Комарова, 46</p>
-                        <p class="main-contacts__paragraph">ПН-ПТ: 09:00 – 19:00</p>
-                        <p class="main-contacts__paragraph">СБ-НД: 10:00 – 17:00</p>
+                        <p class="main-contacts__paragraph">ПН-ПТ: <span class="contacts__date">09:00 – 19:00</span></p>
+                        <p class="main-contacts__paragraph">СБ-НД: <span class="contacts__date">10:00 – 17:00</span></p>
                     </div>
                     <div class="main-contacts__item contacts__consultation">
                         <h5 class="main-contacts__subheader">Запис на консультацію:</h5>

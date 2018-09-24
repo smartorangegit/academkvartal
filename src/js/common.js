@@ -122,12 +122,13 @@ menuCtrl.init();
   showMenuBtn.click(showForm);
   closeMenuBtn.click(hideForm);
 
-
-
   function addForm(formClass) {
+
+
     $(formClass).submit(function(e) {
       e.preventDefault();
       var data = $(formClass).serialize();
+
       $.ajax({
         type: "POST",
         url: 'forms/application.php',

@@ -18,10 +18,8 @@
                 <li><a href="/dud.php" class="footer-nav__link" data-hover="1-кімнатні">1-кімнатні</a></li>
                 <li><a href="/dud.php" class="footer-nav__link" data-hover="2-кімнатні">2-кімнатні</a></li>
                 <li><a href="/dud.php" class="footer-nav__link" data-hover="3-кімнатні">3-кімнатні</a></li>
-                <li><a href="/dud.php" class="footer-nav__link" data-hover="4-кімнатні">4-кімнатні</a></li>
                 <li><a href="/instalments.php" class="footer-nav__link" data-hover="Розстрочка">Розстрочка</a></li>
                 <li><a href="/dud.php" class="footer-nav__link" data-hover="Комерційна нерухомість">Комерційна нерухомість</a></li>
-                <li><a href="/dud.php" class="footer-nav__link" data-hover="Юридична інформація">Юридична інформація</a></li>
             </ul>
         </div>
         <div class="footer-nav__item">
@@ -33,11 +31,11 @@
             </ul>
         </div>
         <div class="footer-nav__item">
-            <h6 class="footer-nav_subheading">Відділ продаж:</h6>
+            <h6 class="footer-nav_subheading">Відділ продажу:</h6>
             <ul>
-                <li>Киев, пр. Комарова, 46</li>
-                <li>ПН-ПТ: 09:00 – 19:00</li>
-                <li>СБ-ВС: 10:00 – 17:00</li>
+                <li>Київ, К. Комарова, 46</li>
+                <li>ПН-ПТ: <span class="footer__time">09:00 – 19:00</span></li>
+                <li>СБ-НД: <span class="footer__time">10:00 – 17:00</span></li>
                 <li><button class="btn footer-nav__btn js-show-callback-form">Замовити дзвінок</button></li>
             </ul>
         </div>

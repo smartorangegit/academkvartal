@@ -12,7 +12,7 @@
         <form class="js-callback-include-form">
             <h5 class="contacts__form-heading callback-form__form-heading">Замовити дзвінок</h5>
             <input type="text" name="name" class="input main-contacts__input" placeholder="Ім'я:" required>
-            <input type="text" name="phone" class="input main-contacts__input" placeholder="Телефон:" required>
+            <input type="text" name="phone" class="input main-contacts__input js-masked-phone" placeholder="Телефон:">
             <input type="text" name="email" class="input main-contacts__input" placeholder="Emai:">
             <button stype="submit" class="btn callback-form__form-btn">Надіслати</button>
         </form>

@@ -10,6 +10,9 @@
                 </div>
             </div>    
             <div class="menu__center">
+                <div class="menu__bottom-logo">
+                    <img src="img/main/intergal_ogo.png" alt="интергал Логотип" />
+                </div>
                 <ul class="menu__list_1">
                     <li class="menu__list_1-item"><a href="/">Головна</a></li>
                     <li class="menu__list_1-item"><a href="/news.php">Новини</a></li>
@@ -24,7 +27,7 @@
                             <li><a href="/halls.php">Холи</a></li>
                             <li><a href="/window-views.php">Види з вікон</a></li>
                             <li><a href="/repair.php">Ремонти</a></li>
-                            <li><a href="/dud.php">Відеопрезентації</a></li>
+                            <li><a href="/video.php">Відеопрезентації</a></li>
                         </ul>
                     </div>
                     <div class="menu__list_2-item">
@@ -80,9 +83,6 @@
             </div>
 
             <div class="menu__bottom">
-                <div class="menu__bottom-logo">
-                    <img src="img/main/intergal_ogo.png" alt="интергал Логотип" />
-                </div>
                 <div class="header-nav__phone">(044) 391-01-00</div>
                 <div class="header-nav__call-btn">
                     <button type="button" class="btn js-show-callback-form">Замовити дзвінок</button>

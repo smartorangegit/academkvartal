@@ -65,6 +65,7 @@ gulp.task('gallery-js', function() {
 // contacts start
 gulp.task('contacts-js', function() {
 	return gulp.src([
+		'src/js/libs/infobubble.js',
 		'src/js/contacts.js',
 		])
 	.pipe(concat('contacts.min.js'))
@@ -120,7 +121,6 @@ gulp.task('news-open-js', function() {
 });
 // news-open end
 
-
 // filter start
 gulp.task('filter-js', function() {
 	return gulp.src([
@@ -133,6 +133,31 @@ gulp.task('filter-js', function() {
 });
 // filter end
 
+
+// choose-floor start
+gulp.task('choose-floor-js', function() {
+	return gulp.src([
+		'src/js/choose-floor.js',
+		])
+	.pipe(concat('choose-floor.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// choose-floor end
+
+
+// non-residential-storage start
+gulp.task('non-residential-storage-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.js',
+		'src/js/non-residential-storage.js',
+		])
+	.pipe(concat('non-residential-storage.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// non-residential-storage end
+
 gulp.task('js', [
 	'common-js',
 	'main-js',
@@ -143,7 +168,9 @@ gulp.task('js', [
 	'repair-js',
 	'construction-js',
 	'news-open-js',
-	'filter-js'
+	'filter-js',
+	'choose-floor-js',
+	'non-residential-storage-js'
 ], function() {
 	return gulp.src([
 		'src/js/common.js',

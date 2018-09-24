@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
     <title>Ремонти</title>
     <?php include_once('includes/gtm_head.php'); ?>
 </head>
@@ -46,6 +47,17 @@
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_7.jpg" alt="test"></div>
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_8.jpg" alt="test"></div>
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_9.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_10.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_11.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_12.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_13.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_14.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_15.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_16.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_17.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_18.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_19.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/kitchens/kitchen_20.jpg" alt="test"></div>
                     </div>
                </div>
                <div class="repair__item js-repair__item">
@@ -59,7 +71,16 @@
                         <div class="repair__date">24.08.2018 &mdash; 19:00</div>
                     </div>
                     <div class="repair__gallery-items js-repair__gallery-items">
-                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_1.jpg" alt="test"></div>
+
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_9.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_10.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_11.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_12.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_13.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_14.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_15.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_16.jpg" alt="test"></div>
+
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_2.jpg" alt="test"></div>
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_3.jpg" alt="test"></div>
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/living/living_4.jpg" alt="test"></div>
@@ -76,7 +97,7 @@
                         </div>
                     </div>
                     <div class="repair__text">
-                        <div class="repair__name">С/у</div>
+                        <div class="repair__name">Ванні кімнати</div>
                         <div class="repair__date">24.08.2018 &mdash; 19:00</div>
                     </div>
                     <div class="repair__gallery-items js-repair__gallery-items">
@@ -90,6 +111,7 @@
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_8.jpg" alt="test"></div>
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_9.jpg" alt="test"></div>
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_10.jpg" alt="test"></div>
+                        <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_11.jpg" alt="test"></div>
                     </div>
                 </div>
                 <!-- <div class="repair__item js-repair__item">
@@ -171,7 +193,7 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="gallery__name js-gallery__name"></div>
+                    <div class="gallery__name gallery__name_repair js-gallery__name"></div>
                     <div class="gallery__main-arrows">
                         <div class="gallery__main-arrow gallery__main-arrow_repair gallery__main-arrow_left js-gallery__main-arrow_left">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"

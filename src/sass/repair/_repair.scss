@@ -31,13 +31,13 @@
 }
 
 .repair__date {
-    font-size: 0.625rem;
+    font-size: 0.785rem;
     color: #b3b3b3;
     font-weight: 700;
 }
 
-.repair__repair_1{background-image: url('../img/repair/kitchens/kitchen_1.jpg');}
-.repair__repair_2{background-image: url('../img/repair/living/living_1.jpg');}
+.repair__repair_1{background-image: url('../img/repair/kitchens/kitchen_11.jpg');}
+.repair__repair_2{background-image: url('../img/repair/living/living_12.jpg');}
 .repair__repair_3{background-image: url('../img/repair/bathroom/bathroom_1.jpg');}
 .repair__repair_4{background-image: url('../img/repair/repair_item_img_4.png');}
 .repair__repair_5{background-image: url('../img/repair/repair_item_img_5.png');}
@@ -85,21 +85,23 @@
     display: none;
 
     &.repair__modal_open {
-        display: block;    
+        display: block;
+        overflow: auto;    
     }
 }
 
 
 .gallery__main {
     .repair__gallery-item {
-        width: 100%;
-        height: 700px;
         position: relative;
         overflow: hidden;
         border-radius: 40px;
         text-align: center;
         img {
             margin: 0 auto;
+            max-width: 900px;
+            max-height: 600px;
+            width: auto !important;
             // position: absolute;
             // top: -9999px;
             // right: -9999px;
@@ -146,18 +148,28 @@
     }
 }
 
-.gallery__name {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: $blue;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+.repair {
+    .gallery__name_repair {
+        background-color: $orange;
+    }
+    .gallery__container {
+        min-height: 700px;
+        height: auto;
+        overflow: initial;
 
+    }
+    .gallery__nav-container {
+        background-color: $orange;
+    }
+    .repair__gallery-item {
+        border-radius: 20px;
+        img {
+            position: static;
+            width: 100%;
+        }
+    }
 }
+
 
 .gallery__main-arrow_repair {
     fill: #fff;

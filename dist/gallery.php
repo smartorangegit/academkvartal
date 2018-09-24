@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
     <title>Візуалізації</title>
     <?php include_once('includes/gtm_head.php'); ?>
 </head>
@@ -26,11 +27,15 @@
         <div class="container">
             <div class="gallery__container animate">
                 <div class="gallery__main js-gallery__main">
+                    <div class="gallery__main-item gallery__main-item_7"></div>
+                    <div class="gallery__main-item gallery__main-item_8"></div>
+                    <div class="gallery__main-item gallery__main-item_9"></div>
                     <div class="gallery__main-item gallery__main-item_1"></div>
                     <div class="gallery__main-item gallery__main-item_2"></div>
                     <div class="gallery__main-item gallery__main-item_3"></div>
                     <div class="gallery__main-item gallery__main-item_4"></div>
                     <div class="gallery__main-item gallery__main-item_5"></div>
+                    <div class="gallery__main-item gallery__main-item_6"></div>
                 </div>
                 <div class="gallery__main-arrows">
                     <div class="gallery__main-arrow gallery__main-arrow_left js-gallery__main-arrow_left">
@@ -55,11 +60,15 @@
                 </div>
                 <div class="gallery__nav-container">
                     <div class="gallery__nav js-gallery__nav">
+                        <div class="gallery__nav-item gallery__nav-item_7"></div>
+                        <div class="gallery__nav-item gallery__nav-item_8"></div>
+                        <div class="gallery__nav-item gallery__nav-item_9"></div>
                         <div class="gallery__nav-item gallery__nav-item_1"></div>
                         <div class="gallery__nav-item gallery__nav-item_2"></div>
                         <div class="gallery__nav-item gallery__nav-item_3"></div>
                         <div class="gallery__nav-item gallery__nav-item_4"></div>
                         <div class="gallery__nav-item gallery__nav-item_5"></div>
+                        <div class="gallery__nav-item gallery__nav-item_6"></div>
                     </div>
                     <div class="gallery__nav-arrows">
                         <div class="gallery__nav-arrow gallery__nav-arrow_left js-gallery__nav-arrow_left">
