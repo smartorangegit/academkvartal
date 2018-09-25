@@ -99,6 +99,9 @@
 
             <a href="#" class="btn btn_orange btn_infrastructure">Перейти до вибору квартири</a>
         </div> -->
+        <div class="infrastructure__people">
+            <img class="infrastructure__family" src="img/infrastructure/infrastructue_family.png" alt="Infrastructure Familty Vector">
+        </div>
         </div>
         
     </section>

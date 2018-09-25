@@ -142,6 +142,7 @@
 .st144{fill:#B79376;}
 .st145{fill:#68944B;}
 .st297{fill:#B4CAD1;}
+.st302{fill:#AFF3F6;}
 
 .st14 {
   fill: #ffffff;
@@ -228,7 +229,9 @@ $step: $time/3;
 // clouds start
 .main-page-hero__clouds {
   transform: translateX(100px);
-  animation: clouds $time*2 infinite alternate;
+  animation: clouds $time infinite alternate;
+  .st0{fill:#FFFFFF;}
+  .st110{fill:rgb(162, 241, 253);}
 }
 @keyframes clouds {
   0% {
@@ -236,6 +239,7 @@ $step: $time/3;
   }
   100% {
     transform: translate(-100px);
+    opacity: 0.6;
   }
 
 }
@@ -244,7 +248,6 @@ $step: $time/3;
 // birds hide start
 .main-page-hero__birds {
   animation: birds $time infinite alternate;
-  display: none;
 }
 
 @keyframes birds {
@@ -276,3 +279,25 @@ $step: $time/3;
   }
 }
 // stars end
+
+// moon start
+
+.main-page-hero__moon {
+  fill: #fff;
+  animation: moonSet $time infinite alternate;
+  transform: translate(-300px, 570px);
+}
+
+@keyframes moonSet {
+  0% {
+    transform: translate(-300px, 570px);
+  }
+  50% {
+    transform: translate(-300px, 570px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+// moon end

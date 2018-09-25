@@ -174,3 +174,20 @@
 .gallery__main-arrow_repair {
     fill: #fff;
 }
+
+.repair__people {
+    position: relative;
+}
+
+.repair__family {
+    position: absolute;
+    top: 20px;
+}
+
+.repair__family_1 {
+    left: 20%;
+}
+
+.repair__family_2 {
+    right: 20%;
+}

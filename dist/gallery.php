@@ -27,6 +27,10 @@
         <div class="container">
             <div class="gallery__container animate">
                 <div class="gallery__main js-gallery__main">
+                    <div class="gallery__main-item gallery__main-item_10"></div>
+                    <div class="gallery__main-item gallery__main-item_11"></div>
+                    <div class="gallery__main-item gallery__main-item_12"></div>
+
                     <div class="gallery__main-item gallery__main-item_7"></div>
                     <div class="gallery__main-item gallery__main-item_8"></div>
                     <div class="gallery__main-item gallery__main-item_9"></div>
@@ -60,6 +64,10 @@
                 </div>
                 <div class="gallery__nav-container">
                     <div class="gallery__nav js-gallery__nav">
+                        <div class="gallery__nav-item gallery__nav-item_10"></div>
+                        <div class="gallery__nav-item gallery__nav-item_11"></div>
+                        <div class="gallery__nav-item gallery__nav-item_12"></div>
+
                         <div class="gallery__nav-item gallery__nav-item_7"></div>
                         <div class="gallery__nav-item gallery__nav-item_8"></div>
                         <div class="gallery__nav-item gallery__nav-item_9"></div>

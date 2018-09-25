@@ -46,8 +46,15 @@
                     <div class="contacts__form main-contacts__form">
                         <form class="js-contacts-page-form">
                             <h5 class="contacts__form-heading main-contacts__form-heading">Зворотній зв'язок</h5>
-                            <input type="text" name="name" class="input main-contacts__input" placeholder="Ім'я:" required>
-                            <input type="text" name="phone" class="input main-contacts__input" placeholder="Телефон:" required>
+                            <div>
+                                <input type="text" name="name" class="input main-contacts__input js-input-name" placeholder="Ім'я:">
+                                <div style="display: none;" class="input-error js-input__error_name">Вкажіть ім'я</div>
+                            </div>
+                            <div>
+                                <input type="text" name="phone" class="input main-contacts__input js-input-phone js-masked-phone" placeholder="Телефон:">
+                                <div style="display: none;" class="input-error js-input__error_phone">Вкажіть телефон</div>
+                                <div style="display: none;" class="input-error js-input__error_phone-format">Невірний формат телефону</div>
+                            </div>
                             <textarea name="message" class="textarea main-contacts__textarea" rows="5">Повідомлення:</textarea>
                             <button stype="submit" class="btn contacts__form-btn">Надіслати</button>
                         </form>

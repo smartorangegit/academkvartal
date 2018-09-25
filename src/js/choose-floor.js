@@ -9,7 +9,7 @@ var chooseFloor = (function() {
         floor.addEventListener('mouseover', function(e) {
             tooltipFloor.innerHTML = e.target.dataset.floor;
             tooltopAppartment.innerHTML = e.target.dataset.appartments;
-            toolTip.style.top = e.clientY  - 20 + 'px';
+            toolTip.style.top = e.layerY  - 20 + 'px';
             var left = document.querySelector('.js-tooltip-alignment-building-' + e.target.dataset.building).getBoundingClientRect().right;
             var distance;
             switch(e.target.dataset.building) {

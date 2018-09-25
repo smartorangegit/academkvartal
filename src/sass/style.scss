@@ -44,19 +44,14 @@
 @import 'instalments/instalments-media.scss';
 @import 'construction/construction';
 @import 'construction/construction-media.scss';
-
 @import 'halls/halls';
 @import 'halls/halls-media.scss';
 @import 'window-views/window-views';
 @import 'window-views/window-views-media.scss';
-
 @import 'filter/filter';
 @import 'filter/filter-media.scss';
-
 @import 'dud/dud';
 @import 'dud/dud-media.scss';
-
-
 @import 'callback-form/callback-form';
 @import 'callback-form/callback-form-media.scss';
 @import 'choose-appartment/choose-appartment';
@@ -65,8 +60,13 @@
 @import 'appartment/appartment-media.scss';
 @import 'choose-floor/choose-floor';
 @import 'choose-floor/choose-floor-media.scss';
-
 @import 'non-residential/non-residential';
 @import 'non-residential/non-residential-media.scss';
+
+@import 'genplan/genplan';
+@import 'genplan/genplan-media.scss';
+
+@import 'technical-characteristics/technical-characteristics';
+@import 'technical-characteristics/technical-characteristics-media.scss';
 
 

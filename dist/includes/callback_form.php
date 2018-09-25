@@ -11,9 +11,20 @@
         </div>
         <form class="js-callback-include-form">
             <h5 class="contacts__form-heading callback-form__form-heading">Замовити дзвінок</h5>
-            <input type="text" name="name" class="input main-contacts__input" placeholder="Ім'я:" required>
-            <input type="text" name="phone" class="input main-contacts__input js-masked-phone" placeholder="Телефон:">
-            <input type="text" name="email" class="input main-contacts__input" placeholder="Emai:">
+            <div>
+                <input type="text" name="name" class="input main-contacts__input js-input-name" placeholder="Ім'я:">
+                <div style="display: none;" class="input-error js-input__error_name">Вкажіть ім'я</div>
+            </div>
+            <div>
+                <input type="text" name="phone" class="input main-contacts__input js-input-phone js-masked-phone" placeholder="Телефон:">
+                <div style="display: none;" class="input-error js-input__error_phone">Вкажіть телефон</div>
+                <div style="display: none;" class="input-error js-input__error_phone-format">Невірний формат телефону</div>
+            </div>
+            <div>
+                <input type="text" name="email" class="input main-contacts__input js-input-email" placeholder="Emai:">
+                <div style="display: none;" class="input-error js-input__error_email">Вкажіть Email</div>
+                <div style="display: none;" class="input-error js-input__error_email-format">Невірний формат email</div>
+            </div>
             <button stype="submit" class="btn callback-form__form-btn">Надіслати</button>
         </form>
     </div>

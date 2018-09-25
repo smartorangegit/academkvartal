@@ -251,6 +251,10 @@
                 </div>
             </div>
         </div>
+        <div class="repair__people container">
+            <img class="repair__family repair__family_1" src="img/repair/repair__family_1.png" alt="Repair Family Image 1" />
+            <img class="repair__family repair__family_2" src="img/repair/repair__family_2.png" alt="Repair Family Image 1" />
+        </div>
     </section>
     <?php include_once('includes/footer.php'); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

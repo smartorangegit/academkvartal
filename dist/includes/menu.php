@@ -11,7 +11,7 @@
             </div>    
             <div class="menu__center">
                 <div class="menu__bottom-logo">
-                    <img src="img/main/intergal_ogo.png" alt="интергал Логотип" />
+                    <a href="https://intergal-bud.com.ua/" target="_blank"><img src="img/main/intergal_ogo.png" alt="интергал Логотип" /></a>
                 </div>
                 <ul class="menu__list_1">
                     <li class="menu__list_1-item"><a href="/">Головна</a></li>
@@ -34,9 +34,9 @@
                         <h6 class="menu__list_subheading">Про проект:</h6>
                         <ul>
                             <li><a href="about-complex.php">Про комплекс</a></li>
-                            <li><a href="/dud.php">Генплан</a></li>
+                            <li><a href="/genplan.php">Генплан</a></li>
                             <li><a href="/advantages.php">Переваги</a></li>
-                            <li><a href="/dud.php">Тех. Характеристики</a></li>
+                            <li><a href="/technical-characteristics.php">Тех. Характеристики</a></li>
                             <li><a href="/infrastructure.php">Інфраструктура</a></li>
                             <li><a href="/dud.php">Оточення</a></li>
                             <li><a href="/dud.php">Документація</a></li>

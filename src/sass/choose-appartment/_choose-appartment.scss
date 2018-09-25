@@ -165,3 +165,11 @@
         font-size: smaller;
     }
 }
+
+
+.test-app {
+    fill: transparent;
+    &:hover {
+        fill: $blue;
+    }
+}

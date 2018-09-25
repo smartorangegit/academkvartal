@@ -121,3 +121,37 @@
     color: $grey;
     line-height: 24px;
 }
+
+.developer__arrow-down {
+    width: 12px;
+    height: 12px;
+    border-left: 1px solid $blue;
+    border-bottom: 1px solid $blue;
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(135deg) translate(5px, -2px);
+    transition: transform .5s;
+}
+
+.developer__lern-more-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.developer__paragraphs {
+    overflow: hidden;
+    max-height: 20000px;
+    opacity: 1;
+    transition: all .5s;
+}
+
+.developer__about_hidden {
+    .developer__arrow-down {
+        transform: rotate(-45deg);
+    }
+
+    .developer__paragraphs {
+        max-height: 0px;
+        opacity: 0;
+    }
+}

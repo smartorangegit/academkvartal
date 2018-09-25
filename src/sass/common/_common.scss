@@ -242,13 +242,14 @@ a {
 }
 
 .page-heading {
-	background-image: url('../img/common/page_heading_bg.png');
+	background-image: url('../img/common/page_heading_bg.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	width: 100%;
 	padding-top: 180px;
-	padding-bottom: 180px;
+	padding-bottom: 100px;
+	margin-bottom: 80px;
 	h1 {
 		color: $purple;
 		font-size: 3rem;
@@ -358,4 +359,9 @@ a {
     height: 48px;
     line-height: 48px;
     border: none;
+}
+
+.input-error {
+	margin-top: -15px;
+	margin-bottom: 20px;
 }

@@ -175,3 +175,14 @@
         opacity: 0;
     }
 }
+
+.infrastructure__people {
+    position: relative;
+}
+
+.infrastructure__family {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

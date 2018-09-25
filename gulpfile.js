@@ -19,6 +19,8 @@ var gulp           = require('gulp'),
 gulp.task('common-js', function() {
 	return gulp.src([
 		'src/js/useful_functions.js',
+		'src/js/libs/inputmask.js',
+		'src/js/libs/jquery.inputmask.js',
 		'src/js/common.js',
 		])
 	.pipe(concat('common.min.js'))
@@ -133,7 +135,6 @@ gulp.task('filter-js', function() {
 });
 // filter end
 
-
 // choose-floor start
 gulp.task('choose-floor-js', function() {
 	return gulp.src([
@@ -158,6 +159,18 @@ gulp.task('non-residential-storage-js', function() {
 });
 // non-residential-storage end
 
+
+// developer start
+gulp.task('developer-js', function() {
+	return gulp.src([
+		'src/js/developer.js',
+		])
+	.pipe(concat('developer.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// developer end
+
 gulp.task('js', [
 	'common-js',
 	'main-js',
@@ -170,7 +183,8 @@ gulp.task('js', [
 	'news-open-js',
 	'filter-js',
 	'choose-floor-js',
-	'non-residential-storage-js'
+	'non-residential-storage-js',
+	'developer-js'
 ], function() {
 	return gulp.src([
 		'src/js/common.js',

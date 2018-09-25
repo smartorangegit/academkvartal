@@ -88,13 +88,13 @@
                             </div>
                         </a>
                     </li>
-                    <!-- <li class="news__item">
-                        <a href="#">
+                    <li class="news__item">
+                        <a href="/news-open-3.php">
                             <div class="news__item-image news__item-image_3">
                             </div>
                             <div class="news__item-text">
                                 <div class="news__item-heading">
-                                    Акційна пропозиція для молодих сімей. Дізнайся Більше!
+                                    ЖК «Академ-Квартал» - квартал комфортного життя
                                 </div>
                                 <div class="news__item-date">
                                     24.08.2018 &mdash; 19:00
@@ -102,7 +102,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="news__item">
+                    <!--<li class="news__item">
                         <a href="#">
                             <div class="news__item-image news__item-image_4">
                             </div>

@@ -234,6 +234,10 @@
                 </div>
             </div>
         </div>
+        <div class="container construction__people">
+            <img class="construction__family construction__family_1" src="img/construction/construction_family_1.png" alt="Construction Family Vector 1" />
+            <img class="construction__family construction__family_2" src="img/construction/construction_family_2.png" alt="Construction Family Vector 2" />
+        </div>
     </section>
     <?php include_once('includes/footer.php'); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

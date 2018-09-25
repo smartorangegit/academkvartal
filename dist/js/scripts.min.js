@@ -122,25 +122,100 @@ menuCtrl.init();
   showMenuBtn.click(showForm);
   closeMenuBtn.click(hideForm);
 
+
+
+  
+
   function addForm(formClass) {
+
+    $(formClass + ' .js-masked-phone').inputmask("+38 (099)999-99-99");
 
 
     $(formClass).submit(function(e) {
       e.preventDefault();
-      var data = $(formClass).serialize();
 
-      $.ajax({
-        type: "POST",
-        url: 'forms/application.php',
-        data: data,
-        success: function(res) {
-          hideForm();
-          alert('Дякую! Ваші дані відправлені, наші менеджери зв`язуються з Вами найближчим часом');
-        },
-        error: function(err) {
-          console.log(err);
+      var valid = false;
+
+      var name = $(formClass + ' .js-input-name').val();
+      var phone = $(formClass + ' .js-input-phone').val();
+      var uaPhoneRegular = /^[\+]?[0-9]{2}[\s][(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{2}[-\s\.]?[0-9]{2}$/;
+
+      var email = $(formClass + ' .js-input-email').val();
+      var emailRegular = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+      // Name check
+      if($(formClass + ' .js-input-name').length !== 0) {
+        if(name.length === 0) {
+          valid = false;
+          $(formClass + ' .js-input__error_name').css('display', 'block');
+        } else {
+          valid = true;
+          $(formClass + ' .js-input__error_name').css('display', 'none');
         }
-      })
+      }
+
+      // Phone check
+      if($(formClass + ' .js-input-phone').length !== 0) {
+        if(phone.length === 0) {
+          valid = false;
+          $(formClass + ' .js-input__error_phone').css('display', 'block');
+        } else {
+          valid = true;
+          $(formClass + ' .js-input__error_phone').css('display', 'none');
+
+          // Phone valid check
+          if(uaPhoneRegular.test(phone)) {
+            valid = true;
+            $(formClass + ' .js-input__error_phone-format').css('display', 'none');
+          } else {
+            valid = false;
+            $(formClass + ' .js-input__error_phone-format').css('display', 'block');
+          }
+
+        } 
+      }//end phone
+      
+
+      // Email check
+      if($(formClass + ' .js-input-email').length !== 0) {
+        if(email.length === 0) {
+          valid = false;
+          $(formClass + ' .js-input__error_email').css('display', 'block');
+
+        } else {
+          valid = true;
+          $(formClass + ' .js-input__error_email').css('display', 'none');
+
+          // Email valid check
+          if(emailRegular.test(email)) {
+            valid = true;
+            $(formClass + ' .js-input__error_email-format').css('display', 'none');
+          } else {
+            valid = false;
+            $(formClass + ' .js-input__error_email-format').css('display', 'block');
+          }
+        }
+      } //End email
+      
+
+
+      if(valid) {
+      var data = $(formClass).serialize();
+        $.ajax({
+          type: "POST",
+          url: 'forms/application.php',
+          data: data,
+          success: function(res) {
+            hideForm();
+            alert('Дякую! Ваші дані відправлені, наші менеджери зв`язуються з Вами найближчим часом');
+          },
+          error: function(err) {
+            console.log(err);
+          }
+        })
+      }
+
+      
     });
   };
 
