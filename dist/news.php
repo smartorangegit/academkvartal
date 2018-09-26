@@ -27,10 +27,10 @@
         </div>
         <div class="container">
             <div class="mini-filter__container">
-                <form class="mini-form">
+                <form class="mini-form js-mini-form__news">
                     <div class="mini-filter-year">
                         <label class="mini-filter-label" for="mini-filter__year">Рік:</label>
-                        <select class="mini-filter__select" name="year" id="mini-filter__year">
+                        <select class="mini-filter__select js-mini-filter__select" name="year" id="mini-filter__year">
                             <option value="2016">2016</option>
                             <option value="2017">2017</option>
                             <option selected value="2018">2018</option>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="mini-filter-month">
                         <label class="mini-filter-label" for="mini-filter__month">Місяць:</label>
-                        <select class="mini-filter__select" name="month" id="mini-filter__month">
+                        <select class="mini-filter__select js-mini-filter__select" name="month" id="mini-filter__month">
                             <option value="0">Січень</option>
                             <option value="1">Лютий</option>
                             <option value="2">Березень</option>
@@ -68,8 +68,8 @@
                                 <div class="news__item-heading">
                                     СТАРТУЄ ПРОДАЖ НОВОГО ЖИТЛОВОГО КОМПЛЕКСУ «АКАДЕМ-КВАРТАЛ»
                                 </div>
-                                <div class="news__item-date">
-                                    24.08.2018 &mdash; 19:00
+                                <div class="news__item-date js-news__item-date">
+                                    24.10.2018 &mdash; 19:00
                                 </div>
                             </div>
                         </a>
@@ -82,7 +82,7 @@
                                 <div class="news__item-heading">
                                     10% знижка першим покупцям! Стань одним із перших!
                                 </div>
-                                <div class="news__item-date">
+                                <div class="news__item-date js-news__item-date">
                                     24.08.2018 &mdash; 19:00
                                 </div>
                             </div>
@@ -96,8 +96,8 @@
                                 <div class="news__item-heading">
                                     ЖК «Академ-Квартал» - квартал комфортного життя
                                 </div>
-                                <div class="news__item-date">
-                                    24.08.2018 &mdash; 19:00
+                                <div class="news__item-date js-news__item-date">
+                                    24.09.2018 &mdash; 19:00
                                 </div>
                             </div>
                         </a>

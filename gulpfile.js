@@ -147,6 +147,18 @@ gulp.task('choose-floor-js', function() {
 // choose-floor end
 
 
+// choose-appartment start
+gulp.task('choose-appartment-js', function() {
+	return gulp.src([
+		'src/js/choose-appartment.js',
+		])
+	.pipe(concat('choose-appartment.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// choose-appartment end
+
+
 // non-residential-storage start
 gulp.task('non-residential-storage-js', function() {
 	return gulp.src([
@@ -184,7 +196,8 @@ gulp.task('js', [
 	'filter-js',
 	'choose-floor-js',
 	'non-residential-storage-js',
-	'developer-js'
+	'developer-js',
+	'choose-appartment-js'
 ], function() {
 	return gulp.src([
 		'src/js/common.js',

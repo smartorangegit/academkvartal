@@ -1,0 +1,425 @@
+﻿[
+    {
+        "content": "<div class=\"marker\"><div class=\"marker__name\">Академ Квартал</div><div class=\"marker__address\">Приборный пер., 10</div></div>",
+        "position": {"lat": 50.472404, "lng": 30.362129},
+        "type": "main"
+    },
+    {
+        "content":"<div class=\"marker\"><div class=\"marker__name\">Середня загальноосвітня школа №162</div><div class=\"marker__address\">вул. Рахманінова,47</div></div>",
+        "position":{
+            "lat":50.4761154,
+            "lng":30.3434889
+        },
+        "type":"school"
+    },
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Гімназія \"Академія\"</div><div class=\"marker__address\">вул. Феодори Пушиної, 4</div></div>",
+            "position":{
+                "lat":50.4589066,
+                "lng":30.3654463
+            },
+            "type":"education"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">НВК “Святошинська гімназія”</div><div class=\"marker__address\">вул. Ірпінська, 74А</div></div>",
+            "position":{
+                "lat":50.4624314,
+                "lng":30.3489972
+            },
+            "type":"education"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Дитячий садок № 200</div><div class=\"marker__address\">вул. Академіка Єфремова, 9А</div></div>",
+            "position":{
+                "lat":50.4623109,
+                "lng":30.3491648
+            },
+            "type":"toy_shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Заклад дошкільної освіти №463 \"Яблунька\"</div><div class=\"marker__address\">вул. Академіка Доброхотова, 24А</div></div>",
+            "position":{
+                "lat":50.4623418,
+                "lng":30.3575249        },
+            "type":"toy_shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Заклад дошкільної освіти №599</div><div class=\"marker__address\">вул. Василя Стуса, 26А</div></div>",
+            "position":{
+                "lat":50.4619508,
+                "lng":30.3546854       },
+            "type":"toy_shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Спеціалізована школа №200</div><div class=\"marker__address\">вул. Семашка, 9</div></div>",
+            "position":{
+                "lat":50.4632511,
+                "lng":30.3575678       },
+            "type":"school"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Інститут колоїдної хімії та хімії води ім. А.В.Думанського НАН України</div><div class=\"marker__address\">бул. Академіка Вернадського, 42</div></div>",
+            "position":{
+                "lat":50.4640014,
+                "lng":30.3575278       },
+            "type":"education"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Інститут металофізики ім.Г.В.Курдюмова</div><div class=\"marker__address\">бул. Академіка Вернадського, 36</div></div>",
+            "position":{
+                "lat":50.4643292,
+                "lng":30.3578282       },
+            "type":"education"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Середня загальноосвітня школа №288</div><div class=\"marker__address\">вул. Ірпінська, 68А</div></div>",
+            "position":{
+                "lat":50.4613036,
+                "lng":30.3547705       },
+            "type":"school"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Дитяча школа мистецтв №8</div><div class=\"marker__address\">вул. Феодори Пушиної, 6</div></div>",
+            "position":{
+                "lat":50.458759,
+                "lng":30.3632417       },
+            "type":"school"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Відкритий міжнародний університет розвитку людини \"Україна\"</div><div class=\"marker__address\">вул. Львівська, 23</div></div>",
+            "position":{
+                "lat":50.4545014,
+                "lng":30.3629676       },
+            "type":"education"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Київська гімназія східних мов №1</div><div class=\"marker__address\">вул. Львівська, 25</div></div>",
+            "position":{
+                "lat":50.4534836,
+                "lng":30.3625599       },
+            "type":"education"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Спеціалізована школа І-ІІІ ступенів №96</div><div class=\"marker__address\">вул.  Огарьова, 2</div></div>",
+            "position":{
+                "lat":50.4615114,
+                "lng":30.3806423       },
+            "type":"school"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Стадіон \"Темп\"</div><div class=\"marker__address\">вул. Генерала Вітрука, 8б</div></div>",
+            "position":{
+                "lat":50.4615114,
+                "lng":30.3806423       },
+            "type":"sport"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Спортивний комплекс \"Наука-Спорт\"</div><div class=\"marker__address\">бул. Академіка Вернадського, 32</div></div>",
+            "position":{
+                "lat":50.4661371,
+                "lng":30.3806423       },
+            "type":"sport"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Спортивний клуб \"АтлетіКо\"</div><div class=\"marker__address\">бул. Семашка, 8А</div></div>",
+            "position":{
+                "lat":50.4643718,
+                "lng":30.3629998       },
+            "type":"sport"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">НВК \"Свічадо\"</div><div class=\"marker__address\">вул. Академіка Вернадського, 71а</div></div>",
+            "position":{
+                "lat":50.4640509,
+                "lng":30.3624419       },
+            "type":"toy_shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Заклад дошкільної освіти №472</div><div class=\"marker__address\">вул. Феодори Пушиної, 5</div></div>",
+            "position":{
+                "lat":50.4596633,
+                "lng":30.3657007       },
+            "type":"toy_shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Спортклуб \"Дія\"</div><div class=\"marker__address\">вул. Семашка, 13</div></div>",
+            "position":{
+                "lat":50.4597172,
+                "lng":30.3662271       },
+            "type":"sport"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Київський університет права НАН України</div><div class=\"marker__address\">вул.  Академіка Доброхотова, 7А</div></div>",
+            "position":{
+                "lat":50.459881,
+                "lng":30.3642659       },
+            "type":"education"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"Фора\"</div><div class=\"marker__address\">вул. Академіка Єфремова, 8А</div></div>",
+            "position":{
+                "lat":50.4669275,
+                "lng":30.3586981       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"Велика Кишеня Експрес\"</div><div class=\"marker__address\">бул. Академіка Вернадського, 79</div></div>",
+            "position":{
+                "lat":50.4667027,
+                "lng":30.358962       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"Novus\"</div><div class=\"marker__address\">просп. Академіка Палладіна, 7А</div></div>",
+            "position":{
+                "lat":50.466252,
+                "lng":30.3590049       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"Varus\"</div><div class=\"marker__address\">просп. Академіка Палладіна, 18/30</div></div>",
+            "position":{
+                "lat":50.4647495,
+                "lng":30.3586401       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"АТБ-Маркет\"</div><div class=\"marker__address\">вул. Академіка Доброхотова, 16</div></div>",
+            "position":{
+                "lat":50.4625246,
+                "lng":30.3621204       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"АТБ-Маркет\"</div><div class=\"marker__address\">просп. Перемоги, 136</div></div>",
+            "position":{
+                "lat":50.4625246,
+                "lng":30.3621204       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"Фора\"</div><div class=\"marker__address\">вул. Академіка Доброхотова, 11А</div></div>",
+            "position":{
+                "lat":50.4615563,
+                "lng":30.3564343       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"Сільпо\"</div><div class=\"marker__address\">вул. Підлісна, 1</div></div>",
+            "position":{
+                "lat":50.4712366,
+                "lng":30.343502       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Супермаркет \"Велмарт\"</div><div class=\"marker__address\">вул. Чорнобильська, 16/80</div></div>",
+            "position":{
+                "lat":50.4636816,
+                "lng":30.3511723       },
+            "type":"shop"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Дитяча клінічна лікарня №5</div><div class=\"marker__address\">бул.  Академіка Вернадського, 53</div></div>",
+            "position":{
+                "lat":50.4635562,
+                "lng":30.3670275       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Поліклініка №3</div><div class=\"marker__address\">вул. Чорнобильська, 5/7</div></div>",
+            "position":{
+                "lat":50.4564812,
+                "lng":30.34635       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Лікарня</div><div class=\"marker__address\">вул. Верховинна, 69</div></div>",
+            "position":{
+                "lat":50.4510681,
+                "lng":30.3599368       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Київська міська клінічна лікарня №7</div><div class=\"marker__address\">вул. Михайла Котельникова, 95</div></div>",
+            "position":{
+                "lat":50.4505932,
+                "lng":30.354977       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Стоматологічне відділення Поліклініки № 2 Лікарні для вчених НАН України</div><div class=\"marker__address\">вул. Академіка Доброхотова, 13</div></div>",
+            "position":{
+                "lat":50.4616894,
+                "lng":30.3612708       },
+            "type":"dentist"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Парк \"Лісова Галявина\"</div><div class=\"marker__address\">вул. Підлісна, 8</div></div>",
+            "position":{
+                "lat":50.4754112,
+                "lng":30.3399052       },
+            "type":"bank"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Сквер ім. Феодори Пушиної</div><div class=\"marker__address\">вул. Феодори Пушиної, 52</div></div>",
+            "position":{
+                "lat":50.4564074,
+                "lng":30.3481117       },
+            "type":"bank"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Сквер ім. Василя Стуса</div><div class=\"marker__address\">cквер ім. Василя Стуса</div></div>",
+            "position":{
+                "lat":50.4549781,
+                "lng":30.3573482       },
+            "type":"bank"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Aroma Kava</div><div class=\"marker__address\">просп. Академіка Палладіна, 13/1</div></div>",
+            "position":{
+                "lat":50.4656835,
+                "lng":30.3552503       },
+            "type":"restaraunt"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Relax restaraunt Kiev</div><div class=\"marker__address\">бул. Академіка Вернадського, 79</div></div>",
+            "position":{
+                "lat":50.4654074,
+                "lng":30.3565772       },
+            "type":"restaraunt"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Mamamia</div><div class=\"marker__address\">вул.  Академіка Єфремова, 8</div></div>",
+            "position":{
+                "lat":50.4652791,
+                "lng":30.3604242       },
+            "type":"restaraunt"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">CASTA</div><div class=\"marker__address\">просп. Перемоги, 136</div></div>",
+            "position":{
+                "lat":50.4586294,
+                "lng":30.3588638       },
+            "type":"restaraunt"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Pesto restaraunt</div><div class=\"marker__address\">просп. Перемоги, 136</div></div>",
+            "position":{
+                "lat":50.4586294,
+                "lng":30.3588638       },
+            "type":"restaraunt"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">HANAMI restaurant & bar</div><div class=\"marker__address\">просп. Академіка Палладіна, 16/div></div>",
+            "position":{
+                "lat":50.4591115,
+                "lng":30.3570486       },
+            "type":"restaraunt"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Аптека \"Ріа Фарм\"</div><div class=\"marker__address\">вул. Академіка Єфремова, 8А</div></div>",
+            "position":{
+                "lat":50.462532,
+                "lng":30.359579       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Аптека 24</div><div class=\"marker__address\">вул. Академіка Єфремова, 3</div></div>",
+            "position":{
+                "lat":50.462532,
+                "lng":30.359579       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Аптека \"Доброго Дня\"</div><div class=\"marker__address\">просп. Академіка Палладіна, 13/1</div></div>",
+            "position":{
+                "lat":50.462532,
+                "lng":30.359579       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Аптека \"Health World\"</div><div class=\"marker__address\">бул. Академіка Вернадського, 79</div></div>",
+            "position":{
+                "lat":50.4646785,
+                "lng":30.3596679       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Аптека \"Доброго Дня\"</div><div class=\"marker__address\">просп. Академіка Палладіна, 22</div></div>",
+            "position":{
+                "lat":50.4643026,
+                "lng":30.3566371       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Аптека \"Лекфарм\"</div><div class=\"marker__address\">просп. Академіка Палладіна, 18/30</div></div>",
+            "position":{
+                "lat":50.4601885,
+                "lng":30.3576244       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Аптека \"Лекфарм\"</div><div class=\"marker__address\">просп. Академіка Палладіна, 16</div></div>",
+            "position":{
+                "lat":50.4591006,
+                "lng":30.3553589       },
+            "type":"pharmacy"
+        },
+    
+    {
+            "content":"<div class=\"marker\"><div class=\"marker__name\">Парк \"Лісова Галявина\"</div><div class=\"marker__address\">вул. Підлісна, 8</div></div>",
+            "position":{
+                "lat":50.4754112,
+                "lng":30.3399052        },
+            "type":"sport"
+        }
+    ]

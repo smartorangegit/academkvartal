@@ -15,53 +15,10 @@
     <?php include_once('includes/callback_form.php'); ?>
     <section class="hero">
         <?php include_once('includes/header.php'); ?>
-        <!-- <div class="container hero__container">
-            <div class="hero__academ_logo">
-                <img src="img//main/academkvartal_logo.png" alt="Академ Квартал Логотип" />
-            </div>
-            <div class="main-nav">
-                <div class="main-nav__phone">(044) 135-12-21</div>
-                <div class="main-nav__call-btn">
-                    <button type="button" class="btn ">Замовити дзвінок</button>
-                </div>
-                <div class="main-nav__menu">
-                    <span class="main-nav__menu-text">Меню</span>
-                    <div class="menu__btn">
-                        <div class="menu__btn-line menu__btn-line_1"></div>
-                        <div class="menu__btn-line menu__btn-line_2"></div> 
-                    </div>
-                </div>
-            </div>
-            <h1 class="hero_heading"><span class="bold">Сучасне та комфортне житло</span><br />  у затишному  районі Києва</h1>
-            <div class="hero__intergal_logo">
-                <img src="img/main//intergal_ogo.png" alt="ІнтергалБуд логотип">
-            </div>
-            <div class="hero__distances">
-                <div class="hero__distance">
-                    <img class="hero__distance-image" src="img/main/academ_icon.png" alt="Academ Icon">
-                    <div class="hero__distance-text hero__distance-text_academ">
-                            <div>Академмістечко</div>
-                            <div>3 хв. на авто</div>
-                    </div>
-                </div>
-                <div class="hero__distance hero__distance_center">
-                    <img class="hero__distance-image" src="img/main/center_icon.png" alt="Center Icon">
-                    <div class="hero__distance-text hero__distance-text_center">
-                            <div>Центр міста</div>
-                            <div>10 хв. на авто</div>
-                    </div>
-                </div>
-                <div class="hero__distance hero__distance_lavina">
-                    <img class="hero__distance-image" src="img/main/lavina_icon.png" alt="Lavina Icon">
-                    <div class="hero__distance-text hero__distance-text_lavina">
-                            <div>ТРЦ Lavina Mall</div>
-                            <div>10 хв. на авто</div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
-        <?php include_once('includes/main-page-hero.php'); ?>
+        <div class="main-page-hero-svg-container">
+            <?php include_once('includes/main-page-hero.php'); ?>
+        </div>
 
         <div class="container">
             <div class="hero__intergal-logo">
@@ -156,7 +113,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="news__item">
+                <li class="news__item main-news__item_3">
                     <a href="/news-open-3.php">
                         <div class="main-news__item-image news__item-image main-news__item-image_3">
                         </div>

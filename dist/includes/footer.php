@@ -7,6 +7,7 @@
                 <li><a href="/gallery.php" class="footer-nav__link" data-hover="Галерея">Галерея</a></li>
                 <li><a href="/advantages.php" class="footer-nav__link" data-hover="Переваги">Переваги</a></li>
                 <li><a href="/infrastructure.php" class="footer-nav__link" data-hover="Інфраструктура">Інфраструктура</a></li>
+                <li><a href="/genplan.php" class="footer-nav__link">Генплан</a></li>
                 <li><a href="/dud.php" class="footer-nav__link" data-hover="Документи">Документи</a></li>
                 <li><a href="/news.php" class="footer-nav__link" data-hover="Новини">Новини</a></li>
                 <li><a href="/contacts.php" class="footer-nav__link" data-hover="Контакти">Контакти</a></li>

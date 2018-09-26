@@ -167,9 +167,9 @@
 }
 
 
-.test-app {
+.svg-appartment {
     fill: transparent;
     &:hover {
-        fill: $blue;
+        fill: rgba($blue, .7);
     }
 }

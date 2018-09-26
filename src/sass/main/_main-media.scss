@@ -4,3 +4,92 @@
         top: 215px;
     }
 }
+
+// To make svg semi adaptable;
+@media screen and (max-width: 1024px) {
+    .main-page-hero-svg-container {
+        position: relative;
+        height: 700px;
+        overflow: hidden;
+        svg {
+            position: absolute;
+            height: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .hero__intergal-logo {
+        img {
+            width: 127px;
+        }
+    }
+
+    // about info
+    .main-info__subheading {
+        font-size: 2.375rem;
+    }
+
+    .main-about-complex_image {
+        padding: 0 60px 60px 30px;
+        img {
+            max-width: 260px;
+        }
+    }
+
+    .main-info__text_apartments {
+        max-width: 270px;
+    }
+
+    .main-apartments_image {
+        padding: 0 40px 15px 60px;
+        background-position: center;
+        img {
+            max-width: 320px;
+        }
+    }
+
+
+    .main-info__text_infrastructure {
+        max-width: 300px
+    }
+
+    .main-infrastructure_image {
+        background-position: center;
+        img {
+            max-width: 400px;
+        }
+    }
+
+    // news
+
+    .news__item {
+        width: 48%;
+    }
+    .main-news__item_3 {
+        display: none;
+    }
+
+    // contacts
+    .main-contacts__heading {
+        margin-bottom: 20px;
+    }
+    .contacts__form {
+        min-width: 385px;
+        padding: 130px 10px 130px 10px;
+        background-image: url('../img/main/form_bg_tablet.png');
+    }
+    .main-contacts__gyro {
+        max-width: 110px;
+        top: -165px;
+    }
+    .main-contacts__bycicle {
+        max-width: 265px;
+        left: 10%;
+        bottom: -65px;
+    }
+    .main-contacts__container {
+        margin-bottom: -100px;
+    }
+}
+

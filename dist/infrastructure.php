@@ -27,49 +27,49 @@
         </div>
         <div class="container map_container">
             <div class="map js-map"></div>
-            <!-- <div class="legend animate">
+            <div class="legend animate">
             <table>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_souvenirs"> 
                         <div class="legend__icon legend__icon_souvenirs"></div>
                     </td>
-                    <td class="legend__text legend__text_1">Сувениыне магазины</td>
+                    <td class="legend__text legend__text_1">Сувенірні магазини</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_sport"> 
                         <div class="legend__icon legend__icon_sport"></div>
                     </td>
-                    <td class="legend__text legend__text_2">Сорт комплексы</td>
+                    <td class="legend__text legend__text_2">Спорт комплекси</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_education">
                         <div class="legend__icon legend__icon_education"></div>
                     </td>
-                    <td class="legend__text legend__text_3">Высшие учебные заведения</td>
+                    <td class="legend__text legend__text_3">Вищі навчальні заклади</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_toy-shop"> 
                         <div class="legend__icon legend__icon_toy-shop"></div>
                     </td>
-                    <td class="legend__text legend__text_4">Детские магазины</td>
+                    <td class="legend__text legend__text_4">Дитсадки</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_restaraunts"> 
                         <div class="legend__icon legend__icon_restaraunts"></div>
                     </td>
-                    <td class="legend__text legend__text_5">Кафе, рестораны</td>
+                    <td class="legend__text legend__text_5">Кафе, ресторани</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_schools"> 
                         <div class="legend__icon legend__icon_schools"></div>
                     </td>
-                    <td class="legend__text legend__text_6">Школы</td>
+                    <td class="legend__text legend__text_6">Школи</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_dentist"> 
                         <div class="legend__icon legend__icon_dentist"></div>
                     </td>
-                    <td class="legend__text legend__text_7">Стоматология</td>
+                    <td class="legend__text legend__text_7">Стоматологія</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_pharmacy"> 
@@ -81,13 +81,13 @@
                     <td class="legend__icon-color legend__icon-color_shop"> 
                         <div class="legend__icon legend__icon_shop"></div>
                     </td>
-                    <td class="legend__text legend__text_9">Супермаркеты</td>
+                    <td class="legend__text legend__text_9">Супермаркети</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_shopping-mall"> 
                         <div class="legend__icon legend__icon_shopping-mall"></div>
                     </td>
-                    <td class="legend__text legend__text_10">Тортговые центры</td>
+                    <td class="legend__text legend__text_10">Торгівельні центри</td>
                 </tr>
                 <tr>
                     <td class="legend__icon-color legend__icon-color_bank"> 
@@ -98,7 +98,7 @@
             </table>
 
             <a href="#" class="btn btn_orange btn_infrastructure">Перейти до вибору квартири</a>
-        </div> -->
+        </div>
         <div class="infrastructure__people">
             <img class="infrastructure__family" src="img/infrastructure/infrastructue_family.png" alt="Infrastructure Familty Vector">
         </div>
