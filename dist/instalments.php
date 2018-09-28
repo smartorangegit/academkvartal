@@ -34,7 +34,9 @@
                <img src="img/instalments/instalments_keys.png" alt="Розтрочка Ключи">
            </div>
            <div class="instalments_bottom">
-                <img src="img/instalments/instalments_family.png" alt="Розтрочка Ключи">
+                <div>
+                    <img src="img/instalments/instalments_family.png" alt="Розтрочка Ключи">
+                </div>
                 <div class="instalments_bottom-paragraphs-container">
                     <p class="instalments__paragraph_2">
                         Розстрочка безпосередньо від забудовника – це завжди вигідно та зручно! Відрізняється від іпотечного кредитування легкістю у оформленні, прийнятними умовами угоди, відсутністю комісій та банківських відсотків.

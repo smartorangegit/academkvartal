@@ -36,6 +36,18 @@
     left: 10px;
 }
 
+.hero-mobile {
+    display: none;
+    color: $blue;
+    text-align: center;
+    font-size: 1.875rem;
+}
+
+.hero-mobile__heading {
+    max-width: 277px;
+    margin: 0 auto 30px auto;
+}
+
 .hero__intergal_logo {
     position: absolute;
     top: 600px;
@@ -226,6 +238,7 @@
 .news__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .news__item {
@@ -279,6 +292,10 @@
     color: #b3b3b3;    
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+.more-news_mobile {
+    display: none;
 }
 
 // contacts

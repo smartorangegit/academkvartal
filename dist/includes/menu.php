@@ -13,14 +13,9 @@
                 <div class="menu__bottom-logo">
                     <a href="https://intergal-bud.com.ua/" target="_blank"><img src="img/main/intergal_ogo.png" alt="интергал Логотип" /></a>
                 </div>
-                <ul class="menu__list_1">
-                    <li class="menu__list_1-item"><a href="/">Головна</a></li>
-                    <li class="menu__list_1-item"><a href="/news.php">Новини</a></li>
-                    <li class="menu__list_1-item"><a href="/contacts.php">Контакти</a></li>
-                </ul>
-
                 <div class="menu__list_2">
                     <div class="menu__list_2-item">
+                        <h3 class="menu__list-heading"><a href="/">Головна</a></h3>
                         <h6 class="menu__list_subheading">Галерея:</h6>
                         <ul>
                             <li><a href="/gallery.php">Візуалізації</a></li>
@@ -31,6 +26,7 @@
                         </ul>
                     </div>
                     <div class="menu__list_2-item">
+                        <h3 class="menu__list-heading"><a href="/news.php">Новини</a></h3>
                         <h6 class="menu__list_subheading">Про проект:</h6>
                         <ul>
                             <li><a href="about-complex.php">Про комплекс</a></li>
@@ -44,6 +40,7 @@
                     </div>
                     <div class="menu__list_2-item">
                         <div>
+                            <h3 class="menu__list-heading"><a href="/contacts.php">Контакти</a></h3>
                             <h6 class="menu__list_subheading">Вибрати квартиру:</h6>
                             <ul>
                                 <li><a href="/dud.php">Вибрати квартиру</a></li>
@@ -51,7 +48,7 @@
                                 <li><a href="/dud.php">Спеціальні умови</a></li>
                             </ul>
                         </div>
-                        <div>
+                        <div class="menu__list_2-item_submenu-2">
                             <h6 class="menu__list_subheading menu__list_subheading_3">Нежилі приміщення:</h6>
                             <ul>
                                 <li><a href="/dud.php">Під бізнес</a></li>
@@ -59,7 +56,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="menu__list_2-item">
+                    <div class="menu__list_2-item menu__list_2-item_4">
                         <div>
                             <h6 class="menu__list_subheading">Умови придбання:</h6>
                             <ul>
@@ -83,8 +80,8 @@
             </div>
 
             <div class="menu__bottom">
-                <div class="header-nav__phone">(044) 391-01-00</div>
-                <div class="header-nav__call-btn">
+                <div class="menu__phone">(044) 391-01-00</div>
+                <div class="menu__call-btn">
                     <button type="button" class="btn js-show-callback-form">Замовити дзвінок</button>
                 </div>
             </div>

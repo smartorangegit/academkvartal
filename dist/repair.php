@@ -114,61 +114,6 @@
                         <div class="repair__gallery-item repair__gallery-item_main"><img src="img/repair/bathroom/bathroom_11.jpg" alt="test"></div>
                     </div>
                 </div>
-                <!-- <div class="repair__item js-repair__item">
-                    <div class="repair__repair repair__repair_4">
-                        <div class="repair__overlay">
-                            Дивитися альбом
-                        </div>
-                    </div>
-                    <div class="repair__text">
-                        <div class="repair__name">Минимализм</div>
-                        <div class="repair__date">24.08.2018 &mdash; 19:00</div>
-                    </div>
-                </div>
-                <div class="repair__item js-repair__item">
-                    <div class="repair__repair repair__repair_5">
-                        <div class="repair__overlay">
-                            Дивитися альбом
-                        </div>
-                    </div>
-                    <div class="repair__text">
-                        <div class="repair__name">Конструктивизм</div>
-                        <div class="repair__date">24.08.2018 &mdash; 19:00</div>
-                    </div>
-                </div>
-                <div class="repair__item js-repair__item">
-                    <div class="repair__repair repair__repair_6">
-                        <div class="repair__overlay">
-                            Дивитися альбом
-                        </div>
-                    </div>
-                    <div class="repair__text">
-                        <div class="repair__name">Китч</div>
-                        <div class="repair__date">24.08.2018 &mdash; 19:00</div>
-                    </div>
-                </div>
-                <div class="repair__item js-repair__item">
-                    <div class="repair__repair repair__repair_7">
-                        <div class="repair__overlay">
-                            Дивитися альбом
-                        </div>
-                    </div>
-                    <div class="repair__text">
-                        <div class="repair__name">Техно</div>
-                        <div class="repair__date">24.08.2018 &mdash; 19:00</div>
-                    </div>
-                </div>
-                <div class="repair__item js-repair__item">
-                    <div class="repair__repair repair__repair_8">
-                        <div class="repair__overlay">
-                            Дивитися альбом
-                        </div>
-                    </div>
-                    <div class="repair__text">
-                        <div class="repair__name">Поп-арт</div>
-                        <div class="repair__date">24.08.2018 &mdash; 19:00</div>
-                    </div>
-                </div> -->
            </div>
         </div>
         <div class="repair__modal js-repair__modal">

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+    .non-residential__image {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .non-residential__container {
+        margin-bottom: -150px;
+    }
+    .non-residential__image {
+        max-width: 310px;
+    }
+    .non-residential-business__gallery-arrow {
+        width: 30px;
+        &.gallery__main-arrow_right {
+            right: 5px;
+        }
+        &.gallery__main-arrow_left {
+            left: 5px;
+        }
+    }
+}

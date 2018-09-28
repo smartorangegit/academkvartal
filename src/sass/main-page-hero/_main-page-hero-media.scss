@@ -12,3 +12,16 @@
         transform: translate(-772px,-206px) scale(1.5);
     }
 }
+
+@media screen and (max-width: 767px) {
+    .main-page-hero__heading {
+        display: none;
+    }
+    #Car_1_1_, #Car_2_1_, #Car_3_1_ {
+        display: none;
+    }
+    .main-page-hero__plane {
+        animation: none;
+        transform: scale(1.5) translate(-175px, 620px);
+    }
+}

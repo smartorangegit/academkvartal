@@ -4,9 +4,23 @@
     border: 1px solid $blue;
     border-radius: 50px;
     padding: 55px 30px 40px;
+    
+}
+
+.filter__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.filter__bottom {
+    color: $grey;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 0.875rem;
 }
 
 .filter-item {
@@ -115,6 +129,7 @@ input[type=number]::-webkit-outer-spin-button {
     width: 100%;
     max-width: 370px;
     float: right;
+    font-size: 0.75rem;
 }
 
 // results
@@ -134,14 +149,13 @@ input[type=number]::-webkit-outer-spin-button {
 .filter__resuls-list {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
 }
 
 .filter-result-item {
     background-color: #fff;
     border-radius: 30px;
     margin-bottom: 20px;
-    margin-right: 11px;
     width: 19%;
     li {
         margin-bottom: 16px;

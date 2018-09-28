@@ -1,0 +1,49 @@
+@media screen and (max-width: 1024px) {
+    .mini-filter__btn {
+        width: 225px;
+    }
+    .mini-filter__select {
+        width: 160px;
+    }
+    .mini-filter-label {
+        margin-right: 10px;
+    }
+    .mini-filter-year,
+    .mini-filter-month {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .page-heading {
+        margin-bottom: 50px;
+        h1 {
+            font-size: 1.875rem;
+        }
+    }
+    
+    .mini-form {
+        display: block;
+    }
+    .mini-filter__container {
+        padding: 10px;
+    }
+    .mini-filter-year,
+    .mini-filter-month {
+        width: 100%;
+        max-width: 380px;
+        margin: 10px auto;
+    }
+    .mini-filter-label {
+        width: 20%;
+        display: inline-block;
+    }
+    .mini-filter__select {
+        width: 75%;
+    }
+    .mini-filter__btn {
+        width: 100%;
+        max-width: 380px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+}

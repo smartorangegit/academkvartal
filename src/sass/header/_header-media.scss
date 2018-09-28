@@ -13,3 +13,27 @@
     }
 
 }
+
+@media screen and (max-width: 767px) {
+    .academ_logo {
+        top: -90px;
+        img {
+            width: 150px;
+        }
+    }
+    .header-nav__phone {
+        display: none;
+    }
+    .header-nav__call-btn {
+        margin-right: 10px;
+        .btn {
+            min-width: auto;
+            max-width: 100px;
+            line-height: 14px;
+            padding: 12px 0;
+        }
+    }
+    .header__callback_btn {
+        
+    }
+}

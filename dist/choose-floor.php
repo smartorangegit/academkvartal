@@ -15,7 +15,7 @@
     <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
-    <section>
+    <section class="choose-foor__container">
         <div class="page-heading">
             <h1>Обрати поверх</h1>
         </div>

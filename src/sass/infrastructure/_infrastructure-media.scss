@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+    .map {
+        margin-top: 430px;
+    }
+    .legend {
+        top: -420px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 370px;
+    }
+}

@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 1024px) {
+    .choose-floor__svg {
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        svg {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            height: 120vh;
+            width: auto;
+            transform: translate(-50%, -50%);
+            margin-bottom: -30vw;
+        }
+    }
+    .choose-foor__container {
+        margin-bottom: -90px;
+    }
+    .choose-floor__action-text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 70px;
+        width: 410px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .choose-floor__svg {
+        svg {
+            height: 80vh;
+        }
+    }
+    .choose-floor__top {
+        display: block;
+    }
+    .choose-floor_btn {
+        margin-top: 20px;
+    }
+    .choose-foor__container {
+        margin-bottom: -145px;
+    }
+    .choose-floor__action-text {
+        width: 175px;
+    }
+    .choose-floor__action-text {
+        top: 20px;
+        transform: none;
+        left: auto;
+        right: 0;
+    }
+}

@@ -143,7 +143,7 @@
                 </li> -->
             </ul>
         </div>
-        <div style="height: 120px; width: 100%"></div>
+        <div class="promotions__pagination-filler"></div>
 
         <!-- <div class="page-pagiantion promotions__page-pagiantion">
             <div class="container page-pagiantion__container">

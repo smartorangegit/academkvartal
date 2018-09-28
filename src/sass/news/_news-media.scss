@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+    .news__pagination-filler {
+        display: none;
+    }
+    .news__people-person_eating {
+        width: 228px;
+    }
+    .news__people-person_running {
+        width: 210px;
+    }
+    .news__people-person {
+        top: 30px;
+    }
+    .news__list_2 {
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .news__people-person_running {
+        width: 178px;
+    }
+    .news__list_2 {
+        margin-bottom: -70px;
+    }
+    .news__people-person {
+        top: 100px;
+    }
+}

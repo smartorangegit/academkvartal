@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1024px) {
+    .construction__item {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .construction__item:nth-of-type(even) {
+        &::before {
+            left: auto;
+            border-width: 6px 14px 6px 0;
+            border-color: transparent $orange transparent transparent;
+            right: -4%;
+        }
+    }
+    .construction__middle-line {
+        left: 93.2%;
+    }
+
+    .construction__family {
+        top: 20px;
+    }
+
+    .construction__family_1 {
+        left: 5%;
+        width: 200px;
+    }
+
+    .construction__family_2 {
+        right: 5%;
+        width: 220px;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .construction__family {
+        top: 80px;
+    }
+    .construction__family_1 {
+        left: 5%;
+        width: 150px;
+    }
+
+    .construction__family_2 {
+        right: 5%;
+        width: 160px;
+
+    }
+}

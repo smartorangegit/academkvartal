@@ -19,6 +19,10 @@
         <div class="main-page-hero-svg-container">
             <?php include_once('includes/main-page-hero.php'); ?>
         </div>
+        <div class="hero-mobile">
+            <h1 class="hero-mobile__heading">Квартал власного затишку</h1>
+            <img src="img/main/mobile-heading-image.png" alt="mobile">
+        </div>
 
         <div class="container">
             <div class="hero__intergal-logo">
@@ -82,7 +86,7 @@
         <div class="container">
             <div class="main-news__top">
                 <h2 class="main-news__subheading">Новини</h2>
-                <a href="/news.php" class="btn">Більше новин</a>
+                <a href="/news.php" class="btn more-news_desktop">Більше новин</a>
             </div>
             <ul class="news__list">
                 <li class="news__item">
@@ -99,7 +103,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="news__item">
+                <li class="news__item main-news__item_2">
                     <a href="/news-open-2.php">
                         <div class="main-news__item-image news__item-image main-news__item-image_2">
                         </div>
@@ -128,6 +132,7 @@
                     </a>
                 </li>
             </ul>
+            <a href="/news.php" class="btn more-news_mobile">Більше новин</a>
         </div>
     </section>
 
@@ -164,7 +169,7 @@
                         <div style="display: none;" class="input-error js-input__error_phone">Вкажіть телефон</div>
                         <div style="display: none;" class="input-error js-input__error_phone-format">Невірний формат телефону</div>
                     </div>
-                    <textarea name="message" class="textarea main-contacts__textarea" rows="5">Повідомлення:</textarea>
+                    <textarea name="message" class="textarea main-contacts__textarea" rows="3">Повідомлення:</textarea>
                     <button stype="submit" class="btn contacts__form-btn">Надіслати</button>
                 </form>
             </div>

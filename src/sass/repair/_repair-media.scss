@@ -1,0 +1,59 @@
+@media screen and (max-width: 1024px) {
+    .repair__family {
+        top: -55px;
+    }
+    .gallery__nav {
+        .repair__gallery-item {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .repair__item {
+        width: 100%;
+    }
+    .repair__list {
+        margin-bottom: -100px;
+    }
+    .repair__family {
+        top: 50px;
+    }
+    .repair__family_1 {
+        left: 10%;
+        width: 200px;
+    }
+    .repair__family_2 {
+        right: 10%;
+        width: 170px;
+    }
+    .repair {
+        .gallery__container {
+            min-height: 500px;
+        }
+        .gallery__name {
+            font-size: 1rem;
+        }
+    }
+    .gallery__main {
+        .repair__gallery-item {
+            img {
+                max-height: 420px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .repair__family {
+        top: 70px;
+    }
+    .repair__family_1 {
+        left: 5%;
+        width: 150px;
+    }
+    .repair__family_2 {
+        right: 5%;
+        width: 120px;
+    }
+}

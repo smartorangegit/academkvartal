@@ -15,7 +15,7 @@
     <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
-    <section>
+    <section class="contacts-page">
         <div class="page-heading">
             <h1>Контакти</h1>
         </div>
@@ -55,7 +55,7 @@
                                 <div style="display: none;" class="input-error js-input__error_phone">Вкажіть телефон</div>
                                 <div style="display: none;" class="input-error js-input__error_phone-format">Невірний формат телефону</div>
                             </div>
-                            <textarea name="message" class="textarea main-contacts__textarea" rows="5">Повідомлення:</textarea>
+                            <textarea name="message" class="textarea main-contacts__textarea" rows="3">Повідомлення:</textarea>
                             <button stype="submit" class="btn contacts__form-btn">Надіслати</button>
                         </form>
                     </div>

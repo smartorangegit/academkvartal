@@ -71,6 +71,7 @@
 	.st39{fill:none;stroke:#FFFFFF;stroke-width:0.1985;stroke-miterlimit:10;}
 	.st40{font-size:5.8848px;}
 	.st41{font-size:6.2655px;}
+	.street {fill: #000000; }
 </style>
 <g id="bg">
 	<rect y="-1.2" class="st0" width="524.4" height="468"/>
@@ -966,8 +967,8 @@
 <text transform="matrix(1 0 0 1 183.8434 205.0325)" class="st8 st24 st25">Дитячий садок</text>
 <text transform="matrix(1 0 0 1 183.8434 205.0325)" class="st27 st24 st25">Дитячий садок</text>
 <polygon class="st28" points="82.9,159.3 73.9,143.7 64.9,159.3 69.8,157.8 69.8,171.5 78.1,171.5 78.1,157.8 "/>
-<text transform="matrix(1 0 0 1 423.7905 190.5457)" class="st24 st29">пров. Приладний</text>
-<text transform="matrix(1 0 0 1 403.7661 283.0516)" class="st24 st29">вул. Робітнича</text>
+<text transform="matrix(1 0 0 1 423.7905 190.5457)" class="st24 st29 street">пров. Приборний</text>
+<text transform="matrix(1 0 0 1 403.7661 283.0516)" class="st24 st29 street">вул. Робітнича</text>
 <polygon class="st30" points="419.2,186.4 413.4,169.4 401.6,182.9 406.7,182.4 404,195.8 412.1,197.4 414.8,184 "/>
 <polygon class="st30" points="440.3,267.9 454.9,257.5 438.6,250 440.5,254.7 426.9,256 427.7,264.2 441.3,262.9 "/>
 <polygon class="st30" points="58.4,406.5 51.2,402.6 44.6,414.6 41.1,410.9 41.5,428.9 56.9,419.6 51.9,418.6 "/>
@@ -1019,8 +1020,8 @@
 <circle class="st36" cx="305.4" cy="147.7" r="1"/>
 <polygon class="st23" points="244.8,110.4 154,110.4 147,110.4 147,116 147,127.1 147,132.7 154,132.7 244.8,132.7 251.7,132.7 
 	251.7,127.1 251.7,117.1 251.7,116 251.7,110.4 "/>
-<text transform="matrix(1 0 0 1 169.5833 119.7142)" class="st8 st24 st25">Авторсьммкий</text>
-<text transform="matrix(1 0 0 1 169.5833 119.7142)" class="st37 st24 st25">Авторсьммкий</text>
+<text transform="matrix(1 0 0 1 169.5833 119.7142)" class="st8 st24 st25">Авторський</text>
+<text transform="matrix(1 0 0 1 169.5833 119.7142)" class="st37 st24 st25">Авторський</text>
 <text transform="matrix(1 0 0 1 155.6833 128.0142)" class="st8 st24 st25">ландшафтний дизайн</text>
 <text transform="matrix(1 0 0 1 155.6833 128.0142)" class="st37 st24 st25">ландшафтний дизайн</text>
 <line class="st35" x1="256.5" y1="171.5" x2="311.2" y2="179"/>

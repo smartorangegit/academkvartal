@@ -229,7 +229,7 @@
                         </a>
                     </li> -->
                 </ul>
-                <div style="height: 120px; width: 100%"></div>
+                <div class="news__pagination-filler"></div>
                 <!-- <div class="page-pagiantion news__page-pagiantion">
                     <div class="container page-pagiantion__container">
                         <div class="page-pagination__arrow page-pagination__arrow_left">

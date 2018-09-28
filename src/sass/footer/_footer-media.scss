@@ -3,10 +3,39 @@
         padding-top: 215px;
     }
     .footer-nav__item {
-        width: 40%;
+        width: 48%;
         margin-bottom: 20px;
+        text-align: center;
     }
     .footer-nav_subheading {
         margin-bottom: 15px;
+    }
+    .footer-nav__item_tablet-container {
+        display: inline-block;
+        text-align: left;
+        min-width: 170px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-nav__container {
+        margin-top: 50px;
+    }
+    .footer-nav__item {
+        width: 98%;
+        text-align: left;
+    }
+    .footer_container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+    .footer__logo {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        img {
+            margin-bottom: 20px;
+        }
     }
 }

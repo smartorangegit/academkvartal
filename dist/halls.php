@@ -9,13 +9,13 @@
     <title>Холи</title>
     <?php include_once('includes/gtm_head.php'); ?>
 </head>
-<body class="gallery">
+<body>
     <?php include_once('includes/gtm_body.php'); ?>
     <?php include_once('includes/menu.php'); ?>
     <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
-    <section>
+    <section class="halls">
         <div class="page-heading">
             <h1>Холи</h1>
         </div>

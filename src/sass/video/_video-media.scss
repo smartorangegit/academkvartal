@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+    .video__name {
+        font-size: 1.2rem;
+    }
+    .video__video {
+        height: 230px;
+    }
+    .video__list {
+        margin-bottom: -120px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__list {
+        margin-bottom: -200px;
+    }
+    .video__item {
+        width: 100%;
+    }
+    .video__text {
+        padding: 10px;
+    }
+}

@@ -15,7 +15,7 @@
 <?php include_once('includes/callback_form.php'); ?>
     <div class="page-blue_bg"></div>
     <?php include_once('includes/header.php'); ?>
-    <section>
+    <section class="non-residential__container">
         <div class="page-heading">
             <h1>Приміщення для бізнесу</h1>
         </div>

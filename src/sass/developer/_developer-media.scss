@@ -1,0 +1,78 @@
+@media screen and (max-width: 1200px) {
+    .developer__paragraph_1 {
+        max-width: 700px;
+    }
+    .developer__numbers {
+        justify-content: center;
+        align-items: center;
+    }
+    .developer__numbers-item {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .developer__paragraph_1 {
+        max-width: 500px;
+    }
+    .developer__intergal-logo {
+        img {
+            max-width: 230px;
+        }
+    }
+    .developer__numbers {
+        margin-bottom: 0;
+    }
+    .developer__awards-list {
+        max-width: 590px;
+        margin: 0 auto;
+    }
+    .developer__awards-heading {
+        margin-bottom: 0px;
+    }
+    .developer__award {
+        padding-top: 65px;
+    }
+    .developer__award {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .developer__intergal {
+        display: block;
+    }
+    .developer__intergal-logo {
+        text-align: center;
+        img {
+            margin-bottom: 20px;
+        }
+    }
+    .developer__paragraph_1 {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .developer__numbers {
+        margin-top: 20px;
+        display: block;
+    }
+    .developer__number {
+        width: 130px;
+        text-align: right;
+    }
+    .developer__numbers-item {
+        width: 100%;
+    }
+    .developer__award {
+        width: 90%;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+    .developer__awards-list {
+        padding-bottom: 20px;
+    }
+    .developer__about {
+        margin-top: -150px;
+        margin-bottom: -150px;
+    }
+}

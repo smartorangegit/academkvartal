@@ -1,0 +1,54 @@
+@media screen and (max-width: 1024px) {
+    .webcam__video {
+        height: 300px;
+    }
+    .webcam__people_guy {
+        width: 130px;
+        right: -75px;
+    }
+    .webcam__people_girl {
+        width: 130px;
+        left: -105px;
+    }
+    .webcam__people {
+        top: 30px;
+    }
+    .page-breadcrumbs_webcam {
+        margin-bottom: 80px;
+    }
+    .webcam__subheading {
+        top: 40px;
+        width: 100%;
+        max-width: 448px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .webcam__video {
+        width: 95%;
+        margin-top: 90px;
+    }
+    .webcam__subheading {
+        max-width: 370px;
+        text-align: center;
+    }
+    .webcam__people {
+        top: 440px;
+        z-index: 1;
+    }
+    .webcam__paragraph {
+        margin-bottom: -50px;
+    }
+    .webcam__people_guy {
+        right: 2%;
+    }
+    .webcam__people_girl {
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .webcam__people {
+        top: 510px;
+    }
+}

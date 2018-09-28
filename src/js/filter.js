@@ -42,6 +42,7 @@ var filterCtrl = (function() {
         }
     });
 
+    // listening for keyups on inputs
     $('.js-filter-item__user').on('keyup',function() {
         var from = parseInt($(this).children('.filter__input_min').val());
         var to = parseInt($(this).children('.filter__input_max').val());
@@ -56,6 +57,7 @@ var filterCtrl = (function() {
         }
     });
 
+    // detecting checbox value change
     $('.js-filter-item__user_checkboxes').change(function() {
         filter.rooms = [];
         document.querySelectorAll('.js-filter__checkbox').forEach(function(checkbox) {
@@ -65,8 +67,120 @@ var filterCtrl = (function() {
         });
     });
 
+    function Appartment(selector) {
+        this.selector = selector;
+        this.building = $(selector).data('building');
+        this.rooms = $(selector).data('rooms');
+        this.floor = $(selector).data('floor');
+        this.totalArea = $(selector).data('tarea');
+        this.livingArea = $(selector).data('larea');
+    };
+
+    var filterResults = document.querySelectorAll('.js-filter-result-item');
+    var resultsObjects = [];
+    var filteredResultObjects = [];
+    var showPerPage = 5;
+    $('.js-filter__results-number').text(filterResults.length);
+
+    filterResults.forEach(function(result) {
+        resultsObjects.push(new Appartment(result));
+    });
+
+    // filter logic here
+
+    // filter once when page loads
+    filterItems();
+
+    function filterItems() {
+        showPerPage = 5;
+        var found = resultsObjects.length;
+        filteredResultObjects = [];
+        resultsObjects.forEach(function(result) {
+            $(result.selector).css('display', 'block');
+            var passed = false;
+            for(var key in filter) {
+                // value is array
+                if(Array.isArray(filter[key])) {
+                    // array is not empty
+                    if(filter[key].length !== 0) {
+                        if(filter[key].includes(result[key])) {
+                            $(result.selector).css('display', 'block');
+                            passed = true;
+                        } else {
+                            $(result.selector).css('display', 'none');
+                            passed = false;
+                            break;
+                        }
+                    } else {
+                        // array is empty do nothing
+                        continue;
+                    }
+                } else {
+                // its not an array
+                    if(result[key] >= filter[key].min && result[key] <= filter[key].max) {
+                        $(result.selector).css('display', 'block');
+                        passed = true;
+                    } else {
+                        $(result.selector).css('display', 'none');
+                        passed = false;
+                        break;
+                    }
+                }
+            }
+
+            if(passed) {
+                filteredResultObjects.push(result);
+            } else {
+                found--;
+            }
+        });
+        showFirst(filteredResultObjects);
+        $('.js-filter__results-number').text(found);
+    }
+
+    // filter on every form submit
+    $('.js-filter').submit(function(e) {
+        e.preventDefault();
+        filterItems();
+    });
 
 
+    // default all inputs values (reset button)
+    $('.js-filter__bottom_default').click(function(e) {
+        e.preventDefault();
+        document.querySelectorAll('.js-ion-range').forEach(function(range) {
+            var ionInstance = $(range).data('ionRangeSlider');
+            // update ion instance
+            ionInstance.update({
+                from: ionInstance.options.from,
+                to: ionInstance.options.to
+            });
+            // update filter values
+            updateFilter(ionInstance.options.type, ionInstance.options.from, ionInstance.options.to);
+            // update what user sees
+            $('[data-type=' + ionInstance.options.type + 'Min]').val(ionInstance.options.from);
+            $('[data-type=' + ionInstance.options.type + 'Max]').val(ionInstance.options.to);
+            // remove checked from filter rooms
+            filter.rooms = [];
+            document.querySelectorAll('.js-filter__checkbox').forEach(function(checkbox) {
+                checkbox.checked = false;
+            });
+        });
+    });
 
+    // show more 
+    function showFirst(items) {
+        items.forEach(function(item, index) {
+            $(item.selector).css('display', 'none');
+            if(index < showPerPage) {
+                $(item.selector).css('display', 'block');
+            }
+        });
+        showPerPage += showPerPage;
+    };
 
+    $('.js-filter__more-results-btn').click(function() {
+        showFirst(filteredResultObjects);
+    });
+    
 })()

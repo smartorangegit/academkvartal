@@ -33,7 +33,13 @@ var contactsCtrl = (function() {
             toy_shop: {x: 452,y: 2},
         };
     
-        var markers_spritesheet = '/img/infrastructure/infrastructure_spritesheet.png';
+        var markers_spritesheet;
+        var dev = false;
+        if(dev) {
+            markers_spritesheet = '/img/infrastructure/infrastructure_spritesheet.png';
+        } else {
+            markers_spritesheet = '/wp-content/themes/academpark/assets/img/infrastructure/infrastructure_spritesheet.png';
+        }
     
         var markersData = [
             {

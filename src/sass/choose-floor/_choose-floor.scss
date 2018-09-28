@@ -1,4 +1,5 @@
 .choose-floor {
+    background: linear-gradient(#d1e2f5 25%, #942382 25%,#942382 25% , #942382 25%);
     .hero__container {
         z-index: 3;
     }
@@ -106,37 +107,3 @@
         position: relative;
     }
 }
-
-// @media only screen and (max-width: 1200px) {
-//     .choose-floor__svg {
-//         width: 100vw;
-//         height: 100vh;
-//         position: relative;
-//         overflow: hidden;
-//         svg {
-//             position: absolute;
-//             top: 50%;
-//             left: 50%;
-//             height: 100vh;
-//             width: auto;
-//             transform: translate(-50%, -50%);
-//             margin-bottom: -30vw;
-//         }
-        
-//     }
-
-//     .choose-floor {
-//         .footer {
-//             margin-top: -200px;
-//         }
-//     }
-    
-// }
-
-// @media only screen and (max-width: 768px) {
-//     .choose-floor__svg {
-//         svg {
-//             height: 50vh;
-//         }
-//     }
-// }

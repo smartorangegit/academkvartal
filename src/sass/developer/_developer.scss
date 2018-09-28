@@ -21,12 +21,14 @@
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .developer__numbers-item {
     width: 17%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .developer__number {
@@ -105,6 +107,7 @@
     text-transform: uppercase;
     font-size: 1.125rem;
     text-align: center;
+    line-height: 24px;
 }
 
 .developer__paragraph_2 {

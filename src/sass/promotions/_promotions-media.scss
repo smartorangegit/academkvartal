@@ -1,0 +1,60 @@
+@media screen and (max-width: 1024px) {
+    .promotion {
+        width: 49%;
+    }
+    .promotions__list {
+        margin-top: 20px;
+    }
+    .promotion__heading {
+        font-size: 1.125rem;
+    }
+    .promotion__text {
+        padding: 25px;
+    }
+    .promotions__alert {
+        img {
+            width: 200px;
+            top: -220px;
+        }
+    }
+    .promotions__bottom-img_guy {
+        width: 190px;
+    }
+    .promotions__bottom-img_girl {
+        width: 180px;
+    }
+    .promotions__bottom-img {
+        top: -80px;
+    }
+    .promotions__pagination-filler {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .promotions__alert {
+        display: none;
+    }
+    .promotion {
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto 20px;
+    }
+    .promotions__pagination-filler {
+        display: none;
+    }
+    .promotions__list {
+        margin-bottom: -50px;
+    }
+    .promotions__bottom-img {
+        top: 25px;
+    }
+    .promotions__bottom-img_guy {
+        width: 165px;
+        left: 0;
+    }
+    .promotions__bottom-img_girl {
+        width: 150px;
+        right: 0;
+    }
+}

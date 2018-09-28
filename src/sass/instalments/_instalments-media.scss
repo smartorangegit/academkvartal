@@ -1,0 +1,35 @@
+@media screen and (max-width: 1024px) {
+    .instalments_bottom {
+        img {
+            width: 330px;
+            position: relative;
+            top: 120px
+        }
+    }
+    .instalments_bottom {
+        margin-bottom: -95px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .instalments_top {
+        display: block;
+        text-align: center;
+    }
+    .instalments__paragraph_2 {
+        padding: 0;
+    }
+    .instalments_bottom {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: -250px;
+
+        img {
+            width: 330px;
+            margin-top: 20px;
+            position: static;
+            top: 120px
+        } 
+    }
+}

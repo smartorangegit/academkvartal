@@ -14,6 +14,7 @@
     transform: translateY(-100%);
     transition: opacity 1s;
     overflow-y: auto;
+    font-weight: 500;
 
     &.menu__open {
         transform: none;
@@ -91,8 +92,7 @@
     display: flex;
 }
 
-.menu__list_1-item {
-    width: 24%;
+.menu__list-heading {
     font-size: 1.125rem;
     font-weight: 500;
     letter-spacing: 0.45px;
@@ -102,22 +102,34 @@
 .menu__list_2 {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .menu__list_2-item {
     width: 24%;
-    margin-top: 60px;
     li {
         font-size: 0.875rem;
         line-height: 36px;
     }
 }
 
+.menu__list_2-item_4 {
+    .menu__list_subheading {
+        margin-top: 70px;
+    }
+
+    .menu__list_subheading_2 {
+        margin-top: 20px;
+    }
+}
+
+
 .menu__list_subheading {
     color: #b2b2b2;
     font-size: 1.125rem;
     font-weight: 500;
     text-transform: uppercase;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 .menu__list_subheading_2 {
@@ -131,6 +143,18 @@
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+}
+
+
+.menu__phone {
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: 500;
+    padding-left: 35px;
+    margin-right: 34px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-image: url('../img/main/phone_icon.png'); 
 }
 
 .menu__bottom-logo {

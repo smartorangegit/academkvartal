@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+    .halls__main-item {
+        height: 450px;
+    }
+    .halls {
+        .gallery__container {
+            height: 512px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .halls__main-item {
+        height: 250px;
+    }
+    .halls {
+        .gallery__container {
+            height: 330px;
+        }
+    }
+}

@@ -32,14 +32,24 @@ var infrastructureCtrl = (function() {
             sport: {x: 418,y: 2},
             toy_shop: {x: 452,y: 2},
         };
+
+        var markers_spritesheet;
+        var pathTomarkers;
+        var dev = false;
+        if(dev) {
+            markers_spritesheet = '/img/infrastructure/infrastructure_spritesheet.png';
+            pathTomarkers = '/includes/markers.json';
+        } else {
+            markers_spritesheet = '/wp-content/themes/academpark/assets/img/infrastructure/infrastructure_spritesheet.png';
+            pathTomarkers = '/wp-content/themes/academpark/includes/markers.json';
+        }
     
-        var markers_spritesheet = '/img/infrastructure/infrastructure_spritesheet.png';
         var markersData;
         var activeInfoBubble;
 
         var xhr = new XMLHttpRequest();
 
-        xhr.open('GET', '/includes/markers.json');
+        xhr.open('GET', pathTomarkers);
 
         xhr.send();
 

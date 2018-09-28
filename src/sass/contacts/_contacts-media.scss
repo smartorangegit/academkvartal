@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .contacts__container {
+        flex-direction: column-reverse;
+        .contacts__form {
+            margin-top: 60px;
+        }
+    }
+    .contacts-page {
+        margin-bottom: -150px;
+    }
+    .contacts__map {
+        height: 400px;
+    }
+}
