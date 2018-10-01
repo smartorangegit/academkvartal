@@ -197,13 +197,20 @@ menuCtrl.init();
         }
       } //End email
       
+      var url;
+      var wordpress = true;
+      if(wordpress) {
+        url = '/wp-content/themes/academpark/forms/application.php';
+      } else {
+        url = 'forms/application.php';
+      }
 
 
       if(valid) {
       var data = $(formClass).serialize();
         $.ajax({
           type: "POST",
-          url: 'forms/application.php',
+          url: url,
           data: data,
           success: function(res) {
             hideForm();

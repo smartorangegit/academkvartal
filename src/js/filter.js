@@ -104,10 +104,8 @@ var filterCtrl = (function() {
                     // array is not empty
                     if(filter[key].length !== 0) {
                         if(filter[key].includes(result[key])) {
-                            $(result.selector).css('display', 'block');
                             passed = true;
                         } else {
-                            $(result.selector).css('display', 'none');
                             passed = false;
                             break;
                         }
@@ -118,10 +116,8 @@ var filterCtrl = (function() {
                 } else {
                 // its not an array
                     if(result[key] >= filter[key].min && result[key] <= filter[key].max) {
-                        $(result.selector).css('display', 'block');
                         passed = true;
                     } else {
-                        $(result.selector).css('display', 'none');
                         passed = false;
                         break;
                     }
@@ -131,6 +127,7 @@ var filterCtrl = (function() {
             if(passed) {
                 filteredResultObjects.push(result);
             } else {
+                $(result.selector).css('display', 'none');
                 found--;
             }
         });
@@ -176,7 +173,7 @@ var filterCtrl = (function() {
                 $(item.selector).css('display', 'block');
             }
         });
-        showPerPage += showPerPage;
+        showPerPage += 5;
     };
 
     $('.js-filter__more-results-btn').click(function() {

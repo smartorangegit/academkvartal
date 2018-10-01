@@ -3,11 +3,12 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 // left
 .appartment__left {
-    width: 22%;
+    width: 20%;
     text-align: center;
 }
 
@@ -63,7 +64,8 @@
 }
 
 .appartment__right {
-    width: 22%;
+    width: 24%;
+    min-width: 280px;
 }
 
 .btn_appartment {
