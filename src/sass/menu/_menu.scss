@@ -10,14 +10,14 @@
     background: linear-gradient(to bottom, #a2107b 0%,#1a70c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2107b', endColorstr='#1a70c5',GradientType=0 ); /* IE6-9 */
     z-index: 10;
-    opacity: 0;
     transform: translateY(-100%);
-    transition: opacity 1s;
+    opacity: 0;
+    transition: opacity 1s, transform 0s 1s;
     overflow-y: auto;
     font-weight: 500;
 
     &.menu__open {
-        transform: none;
+        transform: translateY(0);
         opacity: 1;
         transition: opacity 1s;
     }
@@ -65,12 +65,22 @@
         width: 35px;
         height: 1px;
         background-color: #fff;
+        transition: .7s;
     }
     &::before {
         transform: translateX(-50%) rotateZ(45deg)
     }
     &::after {
         transform: translateX(-50%) rotateZ(-45deg)
+    }
+
+    &:hover {
+        &::before {
+            transform: translateX(-50%) rotateZ(-45deg)
+        }
+        &::after {
+            transform: translateX(-50%) rotateZ(45deg)
+        }
     }
 }
 

@@ -55,17 +55,17 @@
 }
 
 .appartment__center {
-    width: 52%;
-    height: 100%;
+    width: 50%;
     text-align: center;
     img {
-        margin-bottom: 110px;
+        width: 100%;
+
     }
 }
 
 .appartment__right {
     width: 24%;
-    min-width: 280px;
+    min-width: 305px;
 }
 
 .btn_appartment {
@@ -73,8 +73,8 @@
     color: $blue;
 }
 
-
 // right
 .app__info-bold {
     font-weight: 700;
 }
+

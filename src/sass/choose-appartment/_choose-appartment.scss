@@ -171,7 +171,22 @@
 
 .svg-appartment {
     fill: transparent;
-    &:hover {
-        fill: rgba($blue, .7);
+}
+
+[data-flats="1"]:hover {
+    .svg-appartment {
+        fill: rgba(#0c9fe5, 0.8);
+    }
+}
+
+[data-flats="2"]:hover {
+    .svg-appartment {
+        fill: rgba(#efb60d, 0.8);
+    }
+}
+
+[data-flats="3"]:hover {
+    .svg-appartment {
+        fill: rgba(#e80087, 0.8);
     }
 }

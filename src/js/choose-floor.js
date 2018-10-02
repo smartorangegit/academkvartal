@@ -10,12 +10,12 @@ var chooseFloor = (function() {
             var width = window.innerWidth;
             tooltipFloor.innerHTML = e.target.dataset.floor;
             tooltopAppartment.innerHTML = e.target.dataset.appartments;
-            toolTip.style.top = e.offsetY  - (width < 767 ? -120 : 20 ) + 'px';
+            toolTip.style.top = e.offsetY  - (width < 1200 ? 0 : 0 ) + 'px';
             var left = document.querySelector('.js-tooltip-alignment-building-' + e.target.dataset.building).getBoundingClientRect().right;
             var distance;
             switch(e.target.dataset.building) {
                 case '3':
-                    distance = 115;
+                    distance = 50;
                     break;
                 case '2':
                     distance = 125;

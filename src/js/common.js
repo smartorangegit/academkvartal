@@ -102,8 +102,9 @@ menuCtrl.init();
 
 (function() {
 
-  var showMenuBtn = $('.js-show-callback-form');
-  var closeMenuBtn = $('.js-callback-form__form-close-btn');
+  // main callback form
+  var showFormBtn = $('.js-show-callback-form');
+  var closeFormBtn = $('.js-callback-form__form-close-btn');
 
   function showForm() {
     if(!academkvartalState.menuOpen) {
@@ -111,7 +112,6 @@ menuCtrl.init();
     }
     $('.callback-form').addClass('callback-form__show');
   };
-
   function hideForm() {
     if(!academkvartalState.menuOpen) {
       body.classList.remove('overflow-hidden');
@@ -119,17 +119,37 @@ menuCtrl.init();
     $('.callback-form').removeClass('callback-form__show');
   }
 
-  showMenuBtn.click(showForm);
-  closeMenuBtn.click(hideForm);
+  showFormBtn.click(showForm);
+  closeFormBtn.click(hideForm);
 
 
+  //reserve form
+  var showPriceBtn = $('.js-reserve-btn');
+  var hidePriceBtn = $('.js-reserve-form__form-close-btn');
+  showPriceBtn.click(function(e) {
+    e.preventDefault()
+    $('.reserve-form').addClass('callback-form__show');
+  });
+  hidePriceBtn.click(function() {
+    $('.reserve-form').removeClass('callback-form__show');
+  });
 
-  
 
-  function addForm(formClass) {
+  //price form
+  var showPriceBtn = $('.js-price-btn');
+  var hidePriceBtn = $('.js-price-form__form-close-btn');
+  showPriceBtn.click(function(e) {
+    e.preventDefault()
+    $('.price-form').addClass('callback-form__show');
+  });
+  hidePriceBtn.click(function() {
+    $('.price-form').removeClass('callback-form__show');
+  });
+
+
+  function addForm(formClass, url) {
 
     $(formClass + ' .js-masked-phone').inputmask("+38 (099)999-99-99");
-
 
     $(formClass).submit(function(e) {
       e.preventDefault();
@@ -197,15 +217,6 @@ menuCtrl.init();
         }
       } //End email
       
-      var url;
-      var wordpress = true;
-      if(wordpress) {
-        url = '/wp-content/themes/academpark/forms/application.php';
-      } else {
-        url = 'forms/application.php';
-      }
-
-
       if(valid) {
       var data = $(formClass).serialize();
         $.ajax({
@@ -214,6 +225,8 @@ menuCtrl.init();
           data: data,
           success: function(res) {
             hideForm();
+            $('.reserve-form').removeClass('callback-form__show');
+            $('.price-form').removeClass('callback-form__show');
             alert('Дякую! Ваші дані відправлені, наші менеджери зв`язуються з Вами найближчим часом');
           },
           error: function(err) {
@@ -226,9 +239,22 @@ menuCtrl.init();
     });
   };
 
-  addForm('.js-callback-include-form');
-  addForm('.js-main-page-form');
-  addForm('.js-contacts-page-form');
+  var callbackUrl;
+  var priceReserverUrl;
+  var wordpress = true;
+  if(wordpress) {
+    url = '/wp-content/themes/academpark/forms/application.php';
+    priceReserverUrl = '/wp-content/themes/academpark/forms/apparts_application.php';
+  } else {
+    url = 'forms/application.php';
+    priceReserverUrl = 'forms/apparts_application.php';
+  }
+
+  addForm('.js-callback-include-form', callbackUrl);
+  addForm('.js-main-page-form', callbackUrl);
+  addForm('.js-contacts-page-form', callbackUrl);
+  addForm('.js-reserve-form', priceReserverUrl);
+  addForm('.js-price-form', priceReserverUrl);
 
 })();
 
