@@ -34,8 +34,8 @@
                             <li><a href="/advantages.php">Переваги</a></li>
                             <li><a href="/technical-characteristics.php">Тех. Характеристики</a></li>
                             <li><a href="/infrastructure.php">Інфраструктура</a></li>
-                            <li><a href="/dud.php">Оточення</a></li>
-                            <li><a href="/dud.php">Документація</a></li>
+                            <li><a href="/surroundings.php">Оточення</a></li>
+                            <li><a href="/documentation.php">Документація</a></li>
                         </ul>
                     </div>
                     <div class="menu__list_2-item">
@@ -43,8 +43,8 @@
                             <h3 class="menu__list-heading"><a href="/contacts.php">Контакти</a></h3>
                             <h6 class="menu__list_subheading">Вибрати квартиру:</h6>
                             <ul>
-                                <li><a href="/dud.php">Вибрати квартиру</a></li>
-                                <li><a href="/dud.php">Вибрати за параметрами</a></li>
+                                <li><a href="/choose-floor.php">Вибрати квартиру</a></li>
+                                <li><a href="/filter.php">Вибрати за параметрами</a></li>
                                 <li><a href="/dud.php">Спеціальні умови</a></li>
                             </ul>
                         </div>
@@ -60,7 +60,7 @@
                         <div>
                             <h6 class="menu__list_subheading">Умови придбання:</h6>
                             <ul>
-                                <li><a href="/dud.php">Умови придбання</a></li>
+                                <li><a href="/terms-of-purchase.php">Умови придбання</a></li>
                                 <li><a href="/promotions.php">Акції</a></li>
                                 <li><a href="/instalments.php">Розстрочка</a></li>
                                 <li><a href="/dud.php">Кредит</a></li>

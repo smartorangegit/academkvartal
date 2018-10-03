@@ -1,5 +1,4 @@
 .choose-floor {
-    background: linear-gradient(#d1e2f5 25%, #942382 25%,#942382 25% , #942382 25%);
     .hero__container {
         z-index: 3;
     }
@@ -23,11 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    top: -20px;
+    margin-bottom: 20px;
 }
 
 .choose-floor__action-text {
@@ -64,6 +59,7 @@
 // tooltip start
 .choose-floor__tooltip {
     position: absolute;
+    transition: opacity .4s;
 }
 
 .tooltip__top,
@@ -96,20 +92,25 @@
     margin-bottom: 1px;
 }
 
+.tooltip__text_svg {
+    fill: #fff;
+    font-size: 6px;
+    text-transform: uppercase;
+}
+
 // tooltip end
 
 .choose-floor__svg {
     width: 100%;
     position: relative;
-    margin-top: -120px;
-    margin-bottom: -120px;
-    svg {
-        position: relative;
-    }
 }
 
-.choose-foor__container {
-    &~.footer{
-        position: relative;
-    }
+.svg_orange_rect {
+    width: 20;
+    height: 20;
+}
+
+.choose-floor__house-number-text {
+    fill: #fff;
+    font-size: 10px;
 }

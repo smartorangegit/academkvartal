@@ -31,6 +31,7 @@ var contactsCtrl = (function() {
             souvenirs: {x: 384,y: 2},
             sport: {x: 418,y: 2},
             toy_shop: {x: 452,y: 2},
+            sales: {x: 486,y: 2}
         };
     
         var markers_spritesheet;
@@ -50,7 +51,7 @@ var contactsCtrl = (function() {
             {
                 content: '<div class="marker"><div class="marker__name">Відділ продажу</div><div class="marker__address">просп. Комарова, 46</div></div>',
                 position: {lat: 50.43487, lng: 30.403276},
-                type: 'main'
+                type: 'sales'
             },
         ];
     
@@ -58,7 +59,7 @@ var contactsCtrl = (function() {
     
         markersData.forEach(function(marker) {
             var markerSettings = {};
-            if(marker.type === 'main') {
+            if(marker.type === 'main' || marker.type === 'sales') {
                 markerSettings.iconWidth = 106;
                 markerSettings.iconHeight = 144;
             } else {

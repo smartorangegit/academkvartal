@@ -13,6 +13,7 @@
     <?php include_once('includes/gtm_body.php'); ?>
     <?php include_once('includes/menu.php'); ?>
     <?php include_once('includes/callback_form.php'); ?>
+    <?php include_once('includes/preloader.php');?>
     <section class="hero">
         <?php include_once('includes/header.php'); ?>
 
