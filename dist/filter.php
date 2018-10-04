@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="filter__bottom">
-                    <a href="#" class="filter__bottom_results-number js-filter__bottom_results-number">За вашими параметрами знайдено <span class="filter__results-number js-filter__results-number">20</span> квартир</a>
+                    <span class="filter__bottom_results-number js-filter__bottom_results-number">За вашими параметрами знайдено <span class="filter__results-number js-filter__results-number">20</span> квартир</span>
                     <a href="#" class="filter__bottom_default js-filter__bottom_default">Зкинути параметри</a>
                 </div>
             

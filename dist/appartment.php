@@ -27,9 +27,9 @@
         <div class="container">
             <div class="appartment__container">
                 <div class="appartment__left">
-                    <a href="#" class="btn btn__bg-image btn_appartment btn_appartment_1" onclick="history.go(-1)">
-                        <span class="btn__bg-image-text">Назад</span>
-                    </a>
+                    <span class="btn btn__bg-image btn__bg-image_back btn_appartment btn_appartment_1" onclick="history.go(-1)">
+                        <span class="btn__bg-image-text">До вибору квартир</span>
+                    </span>
                     <a href="" class="btn btn__bg-image btn_floor_bg btn_appartment btn_appartment_1">
                         <span class="btn__bg-image-text">Обрати поверх</span>
                     </a>

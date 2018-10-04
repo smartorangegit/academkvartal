@@ -78,3 +78,13 @@
     font-weight: 700;
 }
 
+.btn__bg-image_back {
+    height: 60px;
+    .btn__bg-image-text {
+        max-width: 100px;
+        display: inline-block;
+        line-height: 1.2;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+}

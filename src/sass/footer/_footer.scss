@@ -21,6 +21,28 @@
         line-height: 36px;
         font-weight: 500;
     }
+    
+    a {
+        transition: color 0.5s;
+        position: relative;
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 0%;
+            height: 1px;
+            background-color: $orange;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: width 0.5s;
+        }
+        &:hover {
+            color: $orange;
+            &::after {
+                width: 100%;
+            }
+        }
+    }
 }
 
 .footer-nav_subheading {
