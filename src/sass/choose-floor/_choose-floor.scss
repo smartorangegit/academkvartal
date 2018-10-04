@@ -112,5 +112,18 @@
 
 .choose-floor__house-number-text {
     fill: #fff;
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.choose-floor__house-number-polygon_1 {
+    fill: $purple;
+}
+
+.choose-floor__house-number-polygon_2 {
+    fill: $blue;
+}
+
+.choose-floor__house-number-polygon_3 {
+    fill: $orange;
 }

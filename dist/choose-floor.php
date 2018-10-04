@@ -179,10 +179,28 @@
                 <text x="24" y="30" class="tooltip__text_svg">к-сть</text>
                 <text x="24" y="36" class="tooltip__text_svg">квартир</text>
             </g> -->
-                <text x="50" y="15" class="choose-floor__house-number-text">Будинок №1</text>
-                <text x="150" y="30" class="choose-floor__house-number-text">Будинок №2</text>
-                <text x="250" y="50" class="choose-floor__house-number-text">Будинок №3</text>
-            </svg>
+            <g>
+                <polygon transform="matrix(0.42335778,0,0,0.42335778,16.099504,-20.657795)" points="150,104.6 159.1,95.6 254.3,95.6 254.3,49.4 45.7,49.4 45.7,95.6 140.9,95.6 "
+                class="choose-floor__house-number-polygon choose-floor__house-number-polygon_1" />
+                <text class="choose-floor__house-number-text" y="13.585787" x="57">
+                    Будинок №1
+                </text>
+            </g>
+                <g transform="translate(109.99765,11.406643)">
+                <polygon transform="matrix(0.42335778,0,0,0.42335778,16.099504,-20.657795)" points="150,104.6 159.1,95.6 254.3,95.6 254.3,49.4 45.7,49.4 45.7,95.6 140.9,95.6 "
+                    class="choose-floor__house-number-polygon choose-floor__house-number-polygon_2" />
+                <text class="choose-floor__house-number-text" y="13.585787" x="57">
+                    Будинок №2
+                </text>
+                </g>
+            <g transform="translate(213.13903,30.809187)" >
+                <polygon transform="matrix(0.42335778,0,0,0.42335778,16.099504,-20.657795)" points="140.9,95.6 150,104.6 159.1,95.6 254.3,95.6 254.3,49.4 45.7,49.4 45.7,95.6 "
+                    class="choose-floor__house-number-polygon choose-floor__house-number-polygon_3" />
+                <text class="choose-floor__house-number-text" y="13.585787" x="57">
+                    Будинок №3
+                </text>
+            </g>
+        </svg>
         <div class="choose-floor__tooltip tooltip js-choose-floor__tooltip" style="display: none;">
             <div class="tooltip__top">
                 <div class="tooltip__number js-tooltip-number-floor">18</div>
