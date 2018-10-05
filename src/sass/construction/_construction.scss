@@ -22,6 +22,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
+    min-height: 280px;
 
     position: relative;
 }
@@ -222,7 +223,7 @@
     }
 }
 
-.construction__item:nth-of-type(odd) {
+.construction__item[data-order="odd"] {
     &::before {
         border-width: 6px 14px 6px 0;
         border-color: transparent $orange transparent transparent;
@@ -230,9 +231,8 @@
     }
 }
 
-.construction__item:nth-of-type(even) {
+.construction__item[data-order="even"] {
     &::before {
-        
         border-width: 6px 0 6px 14px;
         border-color: transparent transparent transparent $orange;
         left: -4%;

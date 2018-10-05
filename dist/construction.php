@@ -26,10 +26,10 @@
         </div>
         <div class="container">
             <div class="mini-filter__container mini-filter__container_construction">
-                <form class="mini-form">
+                <form class="mini-form js-mini-form__construction">
                     <div class="mini-filter-year">
                         <label class="mini-filter-label mini-filter-label_construction" for="mini-filter__year">Рік:</label>
-                        <select class="mini-filter__select mini-filter__select_construction" name="year" id="mini-filter__year">
+                        <select class="mini-filter__select js-mini-filter__select mini-filter__select_construction" name="year" id="mini-filter__year">
                             <option value="2016">2016</option>
                             <option value="2017">2017</option>
                             <option selected value="2018">2018</option>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="mini-filter-month">
                         <label class="mini-filter-label mini-filter-label_construction" for="mini-filter__month">Місяць:</label>
-                        <select class="mini-filter__select mini-filter__select_construction" name="month" id="mini-filter__month">
+                        <select class="mini-filter__select js-mini-filter__select mini-filter__select_construction" name="month" id="mini-filter__month">
                             <option value="0">Січень</option>
                             <option value="1">Лютий</option>
                             <option value="2">Березень</option>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.08.2018 &mdash; 19:00</div>
                     </div>
                     <div class="construction__gallery-items js-construction__gallery-items">
                         <div class="construction__gallery-item construction__gallery-item_main"><img src="img/construction/construction_item_img_1.png" alt="test"></div>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.01.2018 &mdash; 19:00</div>
                     </div>
                 </div>
                 <div class="construction__item js-construction__item">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.01.2018 &mdash; 19:00</div>
                     </div>
                 </div>
                 <div class="construction__item js-construction__item">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.02.2018 &mdash; 19:00</div>
                     </div>
                 </div>
                 <div class="construction__item js-construction__item">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.02.2018 &mdash; 19:00</div>
                     </div>
                 </div>
                 <div class="construction__item js-construction__item">
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.02.2018 &mdash; 19:00</div>
                     </div>
                 </div>
                 <div class="construction__item js-construction__item">
@@ -140,7 +140,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.05.2018 &mdash; 19:00</div>
                     </div>
                 </div>
                 <div class="construction__item js-construction__item">
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <div class="construction__text">
-                        <div class="construction__date">24.08.2018 &mdash; 19:00</div>
+                        <div class="construction__date js-construction__date">24.05.2018 &mdash; 19:00</div>
                     </div>
                 </div>
            </div>
