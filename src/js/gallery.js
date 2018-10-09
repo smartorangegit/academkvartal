@@ -1,7 +1,8 @@
 var galleryCtrl = (function() {
 
     function init() {
-        $('.js-gallery__main').slick({
+
+        var mainGal = $('.js-gallery__main').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
@@ -50,6 +51,16 @@ var galleryCtrl = (function() {
                 },
             ]
         });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.keyCode == '37') {
+                mainGal.slick('slickPrev')
+            }
+            else if (e.keyCode == '39') {
+                mainGal.slick('slickNext')
+            }
+        })
+
     }
 
     return {

@@ -204,3 +204,10 @@ input[type=number]::-webkit-outer-spin-button {
 .filter__results-number {
     color: $purple;
 }
+
+.filter-item__building_max {
+    width: 371px;
+}
+.filter-item__building_min {
+    display: none;
+}

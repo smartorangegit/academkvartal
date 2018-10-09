@@ -49,7 +49,7 @@ var constructionCtrl = (function() {
 
         navgallery.slick({
             focusOnSelect: true,
-            slidesToShow: 7,
+            slidesToShow: 6,
             slidesToScroll: 1,
             arrows: true,
             asNavFor: '.js-gallery__main',
