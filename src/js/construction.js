@@ -6,6 +6,7 @@ var constructionCtrl = (function() {
     var maingallery = $('.js-gallery__main');
     var navgallery = $('.js-gallery__nav');
     var closeGal = $('.js-construction__gallery-close-btn');
+    var mainGal;
 
     function openModal(e) {
         body.classList.add('overflow-hidden');
@@ -37,7 +38,7 @@ var constructionCtrl = (function() {
     };
 
     function initGalery() {
-        maingallery.slick({
+        mainGal = maingallery.slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
@@ -87,6 +88,15 @@ var constructionCtrl = (function() {
             ]
         });
     };
+
+    document.addEventListener('keydown', function(e) {
+        if (e.keyCode == '37') {
+            mainGal.slick('slickPrev')
+        }
+        else if (e.keyCode == '39') {
+            mainGal.slick('slickNext')
+        }
+    })
 
     function addListeners() {
         items.click(openModal);

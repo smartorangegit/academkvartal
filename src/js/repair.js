@@ -7,6 +7,7 @@ var repairCtrl = (function() {
     var navgallery = $('.js-gallery__nav');
     var closeGal = $('.js-repair__gallery-close-btn');
     var galleryName = $('.js-gallery__name');
+    var mainGal;
 
     function openModal(e) {
         body.classList.add('overflow-hidden');
@@ -35,7 +36,7 @@ var repairCtrl = (function() {
     };
 
     function initGalery() {
-        maingallery.slick({
+        mainGal = maingallery.slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
@@ -85,6 +86,15 @@ var repairCtrl = (function() {
             ]
         });
     };
+
+    document.addEventListener('keydown', function(e) {
+        if (e.keyCode == '37') {
+            mainGal.slick('slickPrev')
+        }
+        else if (e.keyCode == '39') {
+            mainGal.slick('slickNext')
+        }
+    })
 
     function addListeners() {
         items.click(openModal);
