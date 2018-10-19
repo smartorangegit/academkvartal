@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="css/style.min.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <title>Академ Квартал</title>
-    <?php include_once('includes/gtm_head.php'); ?>
 </head>
 <body>
-    <?php include_once('includes/gtm_body.php'); ?>
     <?php include_once('includes/menu.php'); ?>
     <?php include_once('includes/callback_form.php'); ?>
     <?php include_once('includes/preloader.php');?>

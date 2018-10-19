@@ -6,6 +6,12 @@
             </a>
         </div>
         <div class="header-nav">
+            <div class="header-nav__lang">
+                <ul>
+                    <li><a href="">Укр</a></li>
+                    <li><a href="">Рус</a></li>
+                </ul>
+            </div>
             <div class="header-nav__phone">(044) 391-01-00</div>
             <div class="header-nav__call-btn">
                 <button type="button" class="btn js-show-callback-form">Замовити дзвінок</button>
