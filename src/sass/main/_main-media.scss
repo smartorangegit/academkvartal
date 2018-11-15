@@ -66,6 +66,11 @@
     .news__item {
         width: 48%;
     }
+    .main-news {
+        .news__item {
+            margin-bottom: 20px;
+        }
+    }
     .main-news__item_3 {
         display: none;
     }
