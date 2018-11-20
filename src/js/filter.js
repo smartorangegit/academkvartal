@@ -114,7 +114,12 @@ var filterCtrl = (function() {
                         continue;
                     }
                 } else {
+
                 // its not an array
+                    // REMOVE THIS WHEN ADDED MORE BUILDINGS!!!!!!!!!!!!!!!!!!!!!!
+                    if(key === 'building') { continue; }
+                    // REMOVE THIS WHEN ADDED MORE BUILDINGS!!!!!!!!!!!!!!!!!!!!!!
+
                     if(result[key] >= filter[key].min && result[key] <= filter[key].max) {
                         passed = true;
                     } else {
